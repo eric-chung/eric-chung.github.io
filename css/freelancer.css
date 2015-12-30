@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: ProximaNova,"Proxima Nova",Helvetica,Arial,sans-serif;
+    font-family: 'ProximaNova',"Proxima Nova",Helvetica,Arial,sans-serif;
 }
 
 hr.star-light,
@@ -52,7 +52,7 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: ProximaNova;
+    font-family: 'ProximaNova';
     font-size: 2em;
 }
 
@@ -81,7 +81,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #232323;
-    background: #232323;
+    background: #cad6db;
 }
 
 header .container {
@@ -97,7 +97,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: ProximaNova,"Proxima Nova",Helvetica,Arial,sans-serif;
+    font-family: 'ProximaNova',"Proxima Nova",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -148,7 +148,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: ProximaNova,"Proxima Nova",Helvetica,Arial,sans-serif;
+    font-family: 'ProximaNova',"Proxima Nova",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 

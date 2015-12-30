@@ -1149,8 +1149,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 21px;
-  margin-bottom: 21px;
+  margin-top: -40px;
+  margin-bottom: 40px;
   border: 0;
   border-top: 1px solid #232323;
 }

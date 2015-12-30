@@ -35,7 +35,7 @@ h6 {
     font-family: 'ProximaNova',"Proxima Nova",Helvetica,Arial,sans-serif;
 }
 
-hr.star-light,
+/*hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -57,7 +57,7 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #232323;
 }
 
 hr.star-light:after {
@@ -66,13 +66,13 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #232323;
 }
 
 hr.star-primary:after {
     color: #2c3e50;
     background-color: #fff;
-}
+}*/
 
 .img-centered {
     margin: 0 auto;

@@ -35,6 +35,10 @@ h6 {
     font-family: 'Rockwell',"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+h2 {
+  letter-spacing: 2px;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;

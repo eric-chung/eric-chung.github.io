@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Rockwell',Helvetica,Arial,sans-serif;
+    font-family: 'Rockwell',"Rockwell",Helvetica,Arial,sans-serif;
 }
 
 hr.star-light,

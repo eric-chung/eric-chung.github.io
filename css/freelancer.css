@@ -144,7 +144,8 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        width: 67%;
+        width: 80%;
+        padding-top: 6px;
     }
 }
 

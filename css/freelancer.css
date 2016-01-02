@@ -36,7 +36,7 @@ h6 {
 }
 
 h2 {
-  letter-spacing: 4px;
+  letter-spacing: 1px;
 }
 
 hr.star-light,
@@ -210,6 +210,10 @@ section.success a.active {
 
 #portfolio {
   background: #f7f5f2;
+}
+
+#portfolio h2 {
+  color: #a5915e;
 }
 #portfolio .portfolio-item {
     right: 0;

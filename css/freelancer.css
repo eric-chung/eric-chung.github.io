@@ -91,7 +91,7 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto -40px;
+    margin: 20px auto -40px;
 }
 
 header .intro-text .name {
@@ -111,8 +111,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 245px;
-        padding-bottom: 245px;
+        padding-top: 220px;
+        padding-bottom: 250px;
     }
 
     header .intro-text .name {

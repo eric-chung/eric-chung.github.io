@@ -80,7 +80,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #232323;
+    color: #0f0d0b;
     background: #cad6db;
 }
 
@@ -111,8 +111,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 220px;
-        padding-bottom: 220px;
+        padding-top: 245px;
+        padding-bottom: 245px;
     }
 
     header .intro-text .name {
@@ -134,9 +134,9 @@ header .intro-text .skills {
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
-        -webkit-transition: all .3s ease-in-out;
-        -moz-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
     }
 
     .navbar-fixed-top.navbar-shrink {

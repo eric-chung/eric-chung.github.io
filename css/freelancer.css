@@ -213,7 +213,11 @@ section.success a.active {
 }
 
 #portfolio h2 {
-  color: #a5915e;
+  color: #0f0d0b;
+}
+
+#portfolio hr.star-light {
+  border-color: #a5915e;
 }
 #portfolio .portfolio-item {
     right: 0;

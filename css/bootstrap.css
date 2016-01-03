@@ -127,7 +127,7 @@ textarea {
 }
 button {
   overflow: visible;
-  border: 2px;
+  border-width: 2px;
 }
 button,
 select {

@@ -3014,7 +3014,7 @@ select[multiple].input-lg {
       touch-action: manipulation;
   cursor: pointer;
   background-image: none;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   white-space: nowrap;
   padding: 10px 15px;
   font-size: 15px;
@@ -3065,25 +3065,56 @@ fieldset[disabled] a.btn {
 .btn-default {
   color: #a5915e;
   background-color: transparent;
-  border: 2px;
+  border: 2px #a5915e;
 }
+
+.btn-behance {
+  color: #1769ff;
+  background-color: transparent;
+  border: 2px #1769ff;
+  margin-right: 8px;
+}
+
 .btn-default:focus,
 .btn-default.focus {
   color: #a5915e;
   background-color: #transparent;
-  border: 2px;
+  border: 2px #a5915e;
 }
+
+.btn-behance:focus,
+.btn-behance.focus {
+  color: #1769ff;
+  background-color: #transparent;
+  border: 2px #1769ff;
+}
+
 .btn-default:hover {
   color: #f7f5f2;
   background-color: #a5915e;
-  border: 2px;
+  border: 2px #a5915e;
 }
+
+.btn-behance:hover {
+  color: #f7f5f2;
+  background-color: #1769ff;
+  border: 2px #1769ff;
+}
+
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #f7f5f2;
   background-color: #a5915e;
-  border: 2px;
+  border: 2px #a5915e;
+}
+
+.btn-behance:active,
+.btn-behance.active,
+.open > .dropdown-toggle.btn-behance {
+  color: #f7f5f2;
+  background-color: #1769ff;
+  border: 2px #1769ff;
 }
 
 .btn-default:active:hover,
@@ -3097,7 +3128,21 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default.focus {
   color: #f7f5f2;
   background-color: #a5915e;
-  border: 2px;
+  border: 2px #a5915e;
+}
+
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: #f7f5f2;
+  background-color: #1769ff;
+  border: 2px #1769ff;
 }
 
 .btn-default:active,
@@ -3105,6 +3150,13 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default {
   background-image: none;
 }
+
+.btn-behance:active,
+.btn-behance.active,
+.open > .dropdown-toggle.btn-behance {
+  background-image: none;
+}
+
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -3126,10 +3178,39 @@ fieldset[disabled] .btn-default.active {
   background-color: #95a5a6;
   border-color: #95a5a6;
 }
+
+.btn-behance.disabled,
+.btn-behance[disabled],
+fieldset[disabled] .btn-behance,
+.btn-behance.disabled:hover,
+.btn-behance[disabled]:hover,
+fieldset[disabled] .btn-behance:hover,
+.btn-behance.disabled:focus,
+.btn-behance[disabled]:focus,
+fieldset[disabled] .btn-behance:focus,
+.btn-behance.disabled.focus,
+.btn-behance[disabled].focus,
+fieldset[disabled] .btn-behance.focus,
+.btn-behance.disabled:active,
+.btn-behance[disabled]:active,
+fieldset[disabled] .btn-behance:active,
+.btn-behance.disabled.active,
+.btn-behance[disabled].active,
+fieldset[disabled] .btn-behance.active {
+  background-color: #95a5a6;
+  border-color: #95a5a6;
+}
+
 .btn-default .badge {
   color: #95a5a6;
   background-color: #f7f5f2;
 }
+
+.btn-behance .badge {
+  color: #95a5a6;
+  background-color: #f7f5f2;
+}
+
 .btn-primary {
   color: #f7f5f2;
   background-color: #2c3e50;

@@ -451,13 +451,10 @@ footer .footer-below {
     cursor: pointer;
 }
 
-/*.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}*/
-
-.portfolio-modal .close-modal .lr:hover,
-.portfolio-modal .close-modal .rl:hover {
-  background-color: #a5915e;
+.portfolio-modal .close-modal:hover ~ .lr,
+.portfolio-modal .close-modal:hover ~ .rl {
+    /*opacity: .3;*/
+    background-color: #a5915e;
 }
 
 .portfolio-modal .close-modal .lr {

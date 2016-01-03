@@ -3066,13 +3066,13 @@ fieldset[disabled] a.btn {
 .btn-default {
   color: #a5915e;
   background-color: transparent;
-  border: 2px #a5915e;
+  border: 2px solid #a5915e;
 }
 
 .btn-behance {
   color: #1769ff;
   background-color: transparent;
-  border: 2px #1769ff;
+  border: 2px solid #1769ff;
   margin-right: 8px;
 }
 
@@ -3080,26 +3080,26 @@ fieldset[disabled] a.btn {
 .btn-default.focus {
   color: #a5915e;
   background-color: #transparent;
-  border: 2px #a5915e;
+  border: 2px solid #a5915e;
 }
 
 .btn-behance:focus,
 .btn-behance.focus {
   color: #1769ff;
   background-color: #transparent;
-  border: 2px #1769ff;
+  border: 2px solid #1769ff;
 }
 
 .btn-default:hover {
   color: #f7f5f2;
   background-color: #a5915e;
-  border: 2px #a5915e;
+  border: 2px solid #a5915e;
 }
 
 .btn-behance:hover {
   color: #f7f5f2;
   background-color: #1769ff;
-  border: 2px #1769ff;
+  border: 2px solid #1769ff;
 }
 
 .btn-default:active,
@@ -3107,7 +3107,7 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default {
   color: #f7f5f2;
   background-color: #a5915e;
-  border: 2px #a5915e;
+  border: 2px solid #a5915e;
 }
 
 .btn-behance:active,
@@ -3115,7 +3115,7 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-behance {
   color: #f7f5f2;
   background-color: #1769ff;
-  border: 2px #1769ff;
+  border: 2px solid #1769ff;
 }
 
 .btn-default:active:hover,
@@ -3129,21 +3129,21 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default.focus {
   color: #f7f5f2;
   background-color: #a5915e;
-  border: 2px #a5915e;
+  border: 2px solid #a5915e;
 }
 
-.btn-default:active:hover,
-.btn-default.active:hover,
-.open > .dropdown-toggle.btn-default:hover,
-.btn-default:active:focus,
-.btn-default.active:focus,
-.open > .dropdown-toggle.btn-default:focus,
-.btn-default:active.focus,
-.btn-default.active.focus,
-.open > .dropdown-toggle.btn-default.focus {
+.btn-behance:active:hover,
+.btn-behance.active:hover,
+.open > .dropdown-toggle.btn-behance:hover,
+.btn-behance:active:focus,
+.btn-behance.active:focus,
+.open > .dropdown-toggle.btn-behance:focus,
+.btn-behance:active.focus,
+.btn-behance.active.focus,
+.open > .dropdown-toggle.btn-behance.focus {
   color: #f7f5f2;
   background-color: #1769ff;
-  border: 2px #1769ff;
+  border: 2px solid #1769ff;
 }
 
 .btn-default:active,

@@ -416,7 +416,6 @@ footer .footer-below {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
     background-clip: border-box;
     background: #f7f5f2;
     -webkit-box-shadow: none;
@@ -427,6 +426,7 @@ footer .footer-below {
     margin: 0;
     font-size: 3em;
     color: #0f0d0b;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content hr.star-light {

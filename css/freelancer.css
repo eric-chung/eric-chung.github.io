@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #a5915e;
 }
 
 h1,
@@ -452,15 +452,15 @@ footer .footer-below {
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+    background-color: #a5915e;
 }
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
-    height: 75px;
+    width: 2px;
+    height: 50px;
     margin-left: 35px;
-    background-color: transparent;
+    background-color: #0f0d0b;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -468,9 +468,9 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: transparent;
+    width: 2px;
+    height: 50px;
+    background-color: #0f0d0b;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

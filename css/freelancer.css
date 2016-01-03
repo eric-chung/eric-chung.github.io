@@ -451,17 +451,15 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover ~ .lr,
-.portfolio-modal .close-modal:hover ~ .rl {
-    /*opacity: .3;*/
-    background-color: #a5915e;
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
 }
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 2px;
     height: 50px;
-    margin-left: 35px;
+    margin-left: 45px;
     background-color: #0f0d0b;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -481,4 +479,16 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+#contact {
+  background-color: #a5915e;
+}
+
+#contact h2 {
+  color: #f7f5f2;
+}
+
+#contact hr.star-light {
+  border-color: #0f0d0b;
 }

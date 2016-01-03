@@ -455,8 +455,8 @@ footer .footer-below {
     opacity: .3;
 }*/
 
-.portfolio-modal .close-modal .lr.hover,
-.portfolio-modal .close-modal .rl.hover {
+.portfolio-modal .close-modal .lr:hover,
+.portfolio-modal .close-modal .rl:hover {
   background-color: #a5915e;
 }
 

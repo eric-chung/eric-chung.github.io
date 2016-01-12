@@ -4470,11 +4470,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 21px;
 }
-.navbar-nav > ul {
+.navbar-nav {
   text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-.navbar-nav > li {
+.navbar-nav li {
   display: inline;
 }
 @media (max-width: 767px) {

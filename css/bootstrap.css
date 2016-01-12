@@ -4468,6 +4468,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 21px;
 }
+.navbar-nav > ul {
+  text-align: center;
+}
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -4493,8 +4496,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
     margin: 0;
+    padding: 0;
   }
   .navbar-nav > li {
     float: left;

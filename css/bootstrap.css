@@ -4502,6 +4502,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav > ul {
     text-align: center;
   }
+  .navbar-nav > li {
+    text-align: center;
+  }
   .navbar-nav > li > a {
     padding-top: 19.5px;
     padding-bottom: 19.5px;

@@ -4495,15 +4495,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 @media (min-width: 768px) {
-  .navbar-nav {
-    margin: 0;
-    padding: 0;
-  }
   .navbar-nav > ul {
     text-align: center;
-  }
-  .navbar-nav > li {
-    text-align: center;
+    margin: 0;
+    padding: 0;
   }
   .navbar-nav > li > a {
     padding-top: 19.5px;

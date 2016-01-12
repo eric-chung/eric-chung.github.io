@@ -4464,7 +4464,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin: 9.75px -15px;
 }
 .navbar-nav > li > a {
-  padding-top: 10px;
+  padding-top: 40px;
   padding-bottom: 10px;
   line-height: 21px;
 }
@@ -4499,8 +4499,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin: 0;
     padding: 0;
   }
-  .navbar-nav > li {
-    float: left;
+  .navbar-nav > ul {
+    text-align: center;
   }
   .navbar-nav > li > a {
     padding-top: 19.5px;

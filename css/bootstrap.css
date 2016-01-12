@@ -4471,6 +4471,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav > ul {
   text-align: center;
 }
+
+.navbar-nav > ul > li {
+  display: inline;
+}
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;

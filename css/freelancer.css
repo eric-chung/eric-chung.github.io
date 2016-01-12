@@ -86,7 +86,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #a5915e;
-    background: #f7f5f2;
+    background: #0f0d0b;
 }
 
 header .container {
@@ -210,7 +210,7 @@ section.success a.active {
 }
 
 #portfolio {
-  background: #f7f5f2;
+  background: #0f0d0b;
 }
 
 #portfolio h2 {

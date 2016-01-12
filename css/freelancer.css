@@ -187,7 +187,7 @@ section h2 {
 
 section.success {
     color: #f7f5f2;
-    background: #a5915e;
+    background: #0f0d0b;
 }
 
 section.success a,
@@ -196,7 +196,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #0f0d0b;
+    color: #a5915e;
 }
 
 @media(max-width:767px) {
@@ -483,7 +483,7 @@ footer .footer-below {
 }
 
 #contact {
-  background-color: #a5915e;
+  background-color: #0f0d0b;
 }
 
 #contact h2 {
@@ -491,7 +491,7 @@ footer .footer-below {
 }
 
 #contact hr.star-light {
-  border-color: #0f0d0b;
+  border-color: #a5915e;
 }
 
 #contact .contactMessage {

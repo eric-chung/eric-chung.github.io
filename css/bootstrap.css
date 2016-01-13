@@ -7192,7 +7192,7 @@ a.list-group-item-danger.active:focus {
 				     -o-transition: all 500ms cubic-bezier(0.670, -0.155, 0.225, 1.225);
 				        transition: all 500ms cubic-bezier(0.670, -0.155, 0.225, 1.225); /* custom */
 }
-/*
+
 nav.portfolio .slider {
   left: 0%;
 }
@@ -7201,7 +7201,7 @@ nav.about .slider {
 }
 nav.contact .slider {
   left: 67%;
-}*/
+}
 
 .gold {
   width: 50%;
@@ -7221,17 +7221,14 @@ nav.contact .slider {
 nav.portfolio .slider .gold {
   min-width: 50px;
   width: 40%;
-  left: 0;
 }
 nav.about .slider .gold {
   min-width: 50px;
   width: 20%;
-  left: 33%;
 }
 nav.contact .slider .gold {
   min-width: 50px;
   width: 30%;
-  left: 67%;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */

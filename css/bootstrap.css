@@ -4125,7 +4125,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 		}
 .nav > li {
   position: relative;
-  display: inline;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
 }
 
 .nav > li > a {

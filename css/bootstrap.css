@@ -4477,8 +4477,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 9.75px -15px;
+  margin: 0 auto;
   padding: 0;
+  text-align: center;
+  list-style-type: none;
   max-width: 760px;
   border-top: 1px solid rgba(165,145,94,0.25);
   position: relative;
@@ -4488,12 +4490,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 40px;
   padding-bottom: 10px;
   line-height: 21px;
-}
-.navbar-nav {
-  text-align: center;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
 }
 
 .navbar-nav li {

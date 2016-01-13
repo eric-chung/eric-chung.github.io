@@ -4494,8 +4494,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-nav li {
   display: inline-block;
-  padding: 20px 20px;
+  padding: 20px;
   text-align: center;
+  width: 12%;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -7181,7 +7182,7 @@ a.list-group-item-danger.active:focus {
 .slider {
     width: 20%;
     background-color: #a5915e;
-    position: absolute;
+    position: fixed;
     height: 1px;
     margin: 0 auto;
     left: 0;

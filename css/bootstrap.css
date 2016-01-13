@@ -4122,7 +4122,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	position: relative;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-		}
+}
+.nav > ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
 .nav > li {
   position: relative;
   display: inline-block;

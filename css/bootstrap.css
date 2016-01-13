@@ -7162,6 +7162,29 @@ a.list-group-item-danger.active:focus {
   color: #2c3e50;
 }
 
+nav.portfolio .slider {
+  left: 0%;
+}
+nav.portfolio .slider .gold {
+  min-width: 50px;
+  width: 40%
+}
+nav.about .slider {
+  left: 33%;
+}
+nav.about .slider .gold {
+  min-width: 50px;
+  width: 20%
+}
+nav.contact .slider {
+  left: 67%;
+}
+nav.contact .slider .gold {
+  min-width: 50px;
+  width: 30%
+}
+
+
 .slider {
     width: 20%;
     position: absolute;

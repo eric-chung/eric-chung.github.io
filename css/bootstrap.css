@@ -4111,7 +4111,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   margin-left: -1px;
 }
-.nav {
+nav {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
@@ -4124,6 +4124,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
+
 .nav > ul {
   list-style-type: none;
   margin: 0px;

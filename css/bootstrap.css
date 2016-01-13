@@ -4496,7 +4496,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: inline-block;
   padding: 20px;
   text-align: center;
-  width: 12%;
+  width: 20%;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {

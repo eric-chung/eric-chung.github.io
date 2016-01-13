@@ -114,6 +114,13 @@ header .intro-text .skills {
     margin-top: 40px;
 }
 
+header .slider {
+    display: block;
+    padding: 20px auto;
+    text-align: center;
+    border-color: #a5915e;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 40px;

@@ -4143,8 +4143,8 @@ nav {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
+  color: #f7f5f2;
   text-decoration: none;
-  background-color: #ecf0f1;
 }
 .nav > li.disabled > a {
   color: #b4bcc2;

@@ -136,7 +136,7 @@ header .slider {
 @media(min-width:768px) {
     header .container {
         padding-top: 40px;
-        padding-bottom: 250px;
+        padding-bottom: 0px;
     }
 
     header .intro-text .name {

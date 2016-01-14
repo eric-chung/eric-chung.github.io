@@ -7219,7 +7219,7 @@ nav.contact .slider {
 
 nav.portfolio .slider .gold {
   min-width: 50px;
-  width: 75%;
+  width: 65%;
 }
 nav.about .slider .gold {
   min-width: 50px;
@@ -7227,7 +7227,7 @@ nav.about .slider .gold {
 }
 nav.contact .slider .gold {
   min-width: 50px;
-  width: 55%;
+  width: 57%;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */

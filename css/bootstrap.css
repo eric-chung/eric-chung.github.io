@@ -4497,7 +4497,7 @@ nav {
   display: inline-block;
   padding-top: 20px;
   text-align: center;
-  width: 32.76%;
+  width: 32%;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -7181,7 +7181,7 @@ a.list-group-item-danger.active:focus {
 }
 
 .slider {
-    width: 32.76%;
+    width: 32%;
     background-color: transparent;
     position: absolute;
     top: -1px;

@@ -291,6 +291,14 @@ section.success a.active {
     z-index: 2;
 }
 
+#portfolio .portfolio-overlay {
+  background-color: #0f0d0b;
+}
+
+#portfolio .portfolio-overlay:hover {
+  background-color: transparent;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;

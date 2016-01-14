@@ -4495,7 +4495,7 @@ nav {
   display: inline-block;
   padding-top: 20px;
   text-align: center;
-  width: 32%;
+  width: 33%;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {

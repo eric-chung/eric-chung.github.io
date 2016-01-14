@@ -31,6 +31,13 @@ a.active {
   text-decoration: none;
 }
 
+a .portfolio-link:,
+a .about-link,
+a .contact-link
+ {
+  color: #f7f5f2;
+}
+
 h1,
 h2,
 h3,

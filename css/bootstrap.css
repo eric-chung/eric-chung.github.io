@@ -7197,7 +7197,7 @@ nav.portfolio .slider {
   left: 0%;
 }
 nav.about .slider {
-  left: 32.76%;
+  left: 33.333333333%;
 }
 nav.contact .slider {
   left: 67%;
@@ -7219,15 +7219,15 @@ nav.contact .slider {
 
 nav.portfolio .slider .gold {
   min-width: 50px;
-  width: 80%;
+  width: 75%;
 }
 nav.about .slider .gold {
   min-width: 50px;
-  width: 40%;
+  width: 45%;
 }
 nav.contact .slider .gold {
   min-width: 50px;
-  width: 50%;
+  width: 55%;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */

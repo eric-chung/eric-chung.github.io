@@ -22,8 +22,8 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
-    color: #a5915e;
+  color: #f7f5f2;
+  text-decoration: none;
 }
 
 h1,

@@ -54,7 +54,8 @@ a {
 }
 a:active,
 a:hover {
-  outline: 0;
+  color: #f7f5f2;
+  text-decoration: none;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -7197,7 +7198,7 @@ nav.portfolio .slider {
   left: 0%;
 }
 nav.about .slider {
-  left: 33.333333333%;
+  left: 33.5%;
 }
 nav.contact .slider {
   left: 67%;

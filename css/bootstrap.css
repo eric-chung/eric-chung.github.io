@@ -4117,7 +4117,6 @@ nav {
   list-style: none;
   max-width: 450px;
 	margin: 0px auto;
-	padding-top: 10px;
   border-top: 1px solid rgba(165, 145, 94, 0.25);
 	position: relative;
 	-webkit-font-smoothing: antialiased;
@@ -7220,15 +7219,15 @@ nav.contact .slider {
 
 nav.portfolio .slider .gold {
   min-width: 50px;
-  width: 100%;
+  width: 80%;
 }
 nav.about .slider .gold {
   min-width: 50px;
-  width: 100%;
+  width: 40%;
 }
 nav.contact .slider .gold {
   min-width: 50px;
-  width: 100%;
+  width: 50%;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */

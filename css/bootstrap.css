@@ -4115,7 +4115,7 @@ nav {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
-  max-width: 460px;
+  max-width: 450px;
 	margin: 0px auto;
 	padding-top: 10px;
 	position: relative;
@@ -4481,7 +4481,7 @@ nav {
   padding: -20px;*/
   text-align: center;
   list-style-type: none;
-  max-width: 460px;
+  max-width: 450px;
   position: relative;
   text-rendering: optimizeLegibility;
   border-top: 1px solid rgba(165,145,94,0.25);
@@ -7180,7 +7180,7 @@ a.list-group-item-danger.active:focus {
 }
 
 .slider {
-    width: 20%;
+    width: 33%;
     background-color: transparent;
     position: absolute;
     height: 1px;
@@ -7205,7 +7205,6 @@ nav.contact .slider {
 }
 
 .gold {
-  width: 50%;
   background-color: #f7f5f2;
   height: 1px;
   margin: auto;

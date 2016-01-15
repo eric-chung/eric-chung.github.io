@@ -394,6 +394,10 @@ footer .footer-below {
     max-width: 36px;
 }
 
+.social {
+  margin: 0 auto;
+}
+
 .social i {
     display: inline-block;
     width: 50px;

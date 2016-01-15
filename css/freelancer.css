@@ -372,7 +372,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #f7f5f2;
 }
 
 footer h3 {
@@ -390,7 +390,11 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: ##0f0d0b;
+}
+
+#icon-behance {
+    color: #f7f5f2;
 }
 
 .btn-social {

@@ -412,6 +412,8 @@ footer .footer-below {
     text-align: center;
     line-height: 45px;
     opacity: 0.8;
+    padding: 20px;
+    
 }
 
 .social img.hover {

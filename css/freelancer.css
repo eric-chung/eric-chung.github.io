@@ -389,15 +389,17 @@ footer .footer-below {
     background-color: ##0f0d0b;
 }
 
-#icon-behance {
-
+#icon-behance.hover,
+#icon-link.hover,
+#icon-email.hover {
+    opacity: 1;
 }
 
 #icon-behance,
 #icon-linkedin,
 #icon-email {
-    fill: #f7f5f2;
     max-width: 36px;
+    opacity: 0.8;
 }
 
 .social {

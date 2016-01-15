@@ -390,12 +390,18 @@ footer .footer-below {
 }
 
 #icon-behance {
+
+}
+
+#icon-behance,
+#icon-linkedin,
+#icon-email {
     fill: #f7f5f2;
     max-width: 36px;
 }
 
 .social {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .social i {

@@ -395,6 +395,7 @@ footer .footer-below {
 
 #icon-behance {
     color: #f7f5f2;
+    max-width: 48px;
 }
 
 .btn-social {

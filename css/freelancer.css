@@ -394,7 +394,7 @@ footer .footer-below {
     max-width: 36px;
 }
 
-.btn-social {
+.social i {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -407,8 +407,19 @@ footer .footer-below {
     font-family: 'fontello';
 }
 
-.btn-social:hover {
+.social a.hover {
     opacity: 1;
+}
+
+.social a {
+font-family: 'fontello';
+					font-size: 24px;
+					margin: 0 10px;
+					-webkit-transition: all 600ms cubic-bezier(0.000, 0.280, 0.000, 1); /* older webkit */
+					-webkit-transition: all 600ms cubic-bezier(0.000, 0.280, 0.000, 1.045);
+					   -moz-transition: all 600ms cubic-bezier(0.000, 0.280, 0.000, 1.045);
+					     -o-transition: all 600ms cubic-bezier(0.000, 0.280, 0.000, 1.045);
+					        transition: all 600ms cubic-bezier(0.000, 0.280, 0.000, 1.045); /* custom */
 }
 
 .btn:focus,

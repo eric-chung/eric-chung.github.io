@@ -372,7 +372,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #0f0d0b;
+    color: #f7f5f2;
+    background-color: ##0f0d0b;
 }
 
 footer h3 {
@@ -381,12 +382,10 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 20px;
-    background-color: #0f0d0b;
 }
 
 footer .footer-below {
     padding: 20px 0;
-    background-color: ##0f0d0b;
 }
 
 #icon-behance.hover,
@@ -413,7 +412,6 @@ footer .footer-below {
     line-height: 45px;
     opacity: 0.8;
     padding: 20px;
-    
 }
 
 .social img.hover {

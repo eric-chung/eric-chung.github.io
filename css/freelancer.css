@@ -389,15 +389,15 @@ footer .footer-below {
     background-color: #0f0d0b;
 }
 
-#icon-behance.hover,
-#icon-link.hover,
-#icon-email.hover {
+.icon-behance.hover,
+.icon-link.hover,
+.icon-email.hover {
     opacity: 1;
 }
 
-#icon-behance,
-#icon-linkedin,
-#icon-email {
+.icon-behance,
+.icon-linkedin,
+.icon-email {
     max-width: 36px;
     opacity: 0.8;
 }
@@ -406,7 +406,7 @@ footer .footer-below {
     margin: 0 auto;
 }
 
-.social img {
+footer img {
     display: inline-block;
     max-width: 36px;
     text-align: center;
@@ -415,7 +415,7 @@ footer .footer-below {
     padding: 20px;
 }
 
-.social img.hover {
+footer img.hover {
     opacity: 1;
 }
 

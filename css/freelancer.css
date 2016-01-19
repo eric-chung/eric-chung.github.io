@@ -384,7 +384,7 @@ footer .footer-below {
     padding: 20px 0;
 }
 
-footer .icon-social {
+.icon-social {
     display: inline-block;
     max-width: 36px;
     text-align: center;
@@ -393,7 +393,7 @@ footer .icon-social {
     padding: 20px;
 }
 
-footer .icon-social.hover {
+.icon-social.hover {
     opacity: 1;
 }
 

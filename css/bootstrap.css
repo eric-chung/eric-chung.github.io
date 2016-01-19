@@ -1073,13 +1073,13 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
-:not(footer img) {
+:not(.icon-social) {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-:not(footer img):before,
-:not(footer img):after {
+:not(.icon-social):before,
+:not(.icon-social):after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

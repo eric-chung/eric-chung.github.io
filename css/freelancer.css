@@ -386,15 +386,25 @@ footer .footer-below {
 
 .icon-social {
     display: inline-block;
-    max-height: 28px;
+    max-height: 24px;
     text-align: center;
     line-height: 45px;
-    opacity: 0.8;
-    padding: 20px;
+    padding: 20px 35px;
+    margin-bottom: 20px;
 }
 
-.icon-social.hover {
-    opacity: 1;
+.icon-social2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.icon-social2:hover {
+  opacity: 1;
 }
 
 .btn:focus,

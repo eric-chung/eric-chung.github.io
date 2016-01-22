@@ -45,7 +45,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Rockwell',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'ProximaNova',"Proxima Nova",Helvetica,Arial,sans-serif;
+    font-weight: bold;
 }
 
 h2 {

@@ -10,7 +10,7 @@ body {
 
 p {
     font-size: 20px;
-    color: #f7f5f2;
+    color: #0f0d0b;
 }
 
 p.small {
@@ -446,7 +446,7 @@ footer .footer-below {
     border: 0;
     border-radius: 0;
     background-clip: border-box;
-    background: #f7f5f2;
+    background: #0f0d0b;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -454,7 +454,7 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
-    color: #0f0d0b;
+    color: #f7f5f2;
     text-align: center;
 }
 
@@ -472,10 +472,11 @@ footer .footer-below {
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    padding: 25px 0 25px 0;
     background-color: transparent;
     cursor: pointer;
 }
@@ -489,7 +490,7 @@ footer .footer-below {
     width: 2px;
     height: 50px;
     margin-left: 45px;
-    background-color: #0f0d0b;
+    background-color: #a5915e;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -499,7 +500,7 @@ footer .footer-below {
     z-index: 1052;
     width: 2px;
     height: 50px;
-    background-color: #0f0d0b;
+    background-color: #a5915e;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

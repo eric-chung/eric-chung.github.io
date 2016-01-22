@@ -4520,6 +4520,9 @@ nav {
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
   }
 }
 @media (min-width: 768px) {
@@ -4714,6 +4717,9 @@ nav {
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
   color: #f7f5f2;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {

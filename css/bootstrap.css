@@ -2122,6 +2122,10 @@ pre code {
   .col-lg-6 {
     width: 50%;
   }
+  .col-lg-6.blurb {
+    float: none;
+    margin: auto;
+  }
   .col-lg-5 {
     width: 41.66666667%;
   }

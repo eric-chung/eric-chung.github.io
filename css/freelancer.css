@@ -516,7 +516,7 @@ footer hr.starlight{
   display: block;
   max-width: 620px;
   text-align: left;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 #contact a {

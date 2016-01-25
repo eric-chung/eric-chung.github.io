@@ -518,3 +518,15 @@ footer hr.starlight{
   text-align: left;
   margin: 0 auto 30px;
 }
+
+.services li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}

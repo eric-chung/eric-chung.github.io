@@ -210,13 +210,12 @@ section.success {
     background: #0f0d0b;
 }
 
-section.success a,
 section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #a5915e;
+    color: #f7f5f2;
 }
 
 @media(max-width:767px) {

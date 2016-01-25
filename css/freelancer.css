@@ -501,7 +501,7 @@ footer hr.starlight{
 }
 
 #contact {
-  background-color: #0f0d0b;
+  background: #0f0d0b;
 }
 
 #contact h2 {
@@ -517,14 +517,4 @@ footer hr.starlight{
   max-width: 620px;
   text-align: left;
   margin: 0 auto 30px;
-}
-
-#contact a {
-  color: #a5915e;
-}
-
-#contact a.hover,
-#contact a.focus,
-#contact a.active {
-  color: #a5915e;
 }

@@ -530,3 +530,37 @@ footer hr.starlight{
     text-decoration: none;
     transition: all .3s ease-out;
 }
+
+.services li:hover{
+    background: #eee;
+}
+
+.services li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #fa8072;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services li:after{
+    position: absolute;
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+
+.services li:hover:after{
+    left: -.5em;
+    border-left-color: #fa8072;
+}

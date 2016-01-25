@@ -10,7 +10,7 @@ body {
 
 p {
     font-size: 20px;
-    color: #f7f5f2;
+    color: #a5915e;
 }
 
 p.small {
@@ -212,8 +212,7 @@ section.success {
 
 section.success a:hover,
 section.success a:focus,
-section.success a:active,
-section.success a.active {
+section.success a:active {
     outline: 0;
     color: #f7f5f2;
 }
@@ -515,11 +514,17 @@ footer hr.starlight{
 
 #contact .contactMessage {
   display: block;
-  width: 520px;
+  max-width: 620px;
   text-align: left;
   margin: 0 auto;
 }
 
 #contact a {
-  color: #f7f5f2;
+  color: #a5915e;
+}
+
+#contact a.hover,
+#contact a.focus,
+#contact a.active {
+  color: #a5915e;
 }

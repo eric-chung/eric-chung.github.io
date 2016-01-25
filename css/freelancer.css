@@ -20,6 +20,8 @@ p.small {
 a {
   color: #a5915e;
   text-decoration: none;
+  border-style: dashed;
+  border-width: 0 0 1px;
 }
 
 a:hover,
@@ -29,6 +31,7 @@ a.active {
   outline: 0;
   color: #f7f5f2;
   text-decoration: none;
+  border: none;
 }
 
 .portfolio-link,
@@ -471,7 +474,7 @@ footer hr.starlight{
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+    opacity: 1;
 }
 
 .portfolio-modal .close-modal .lr {
@@ -483,6 +486,7 @@ footer hr.starlight{
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+    opacity: .5;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -493,6 +497,7 @@ footer hr.starlight{
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+    opacity: .5;
 }
 
 .portfolio-modal .modal-backdrop {

@@ -405,6 +405,10 @@ footer hr.starlight{
     opacity: 1;
 }
 
+.link-social {
+  border: none;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active {

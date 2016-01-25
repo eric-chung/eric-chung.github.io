@@ -248,6 +248,7 @@ section.success a:active {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    border: none;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -471,6 +472,7 @@ footer hr.starlight{
     padding: 25px 0 25px 0;
     background-color: transparent;
     cursor: pointer;
+    opacity: .4;
 }
 
 .portfolio-modal .close-modal:hover {
@@ -486,7 +488,6 @@ footer hr.starlight{
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    opacity: .5;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -497,7 +498,6 @@ footer hr.starlight{
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    opacity: .5;
 }
 
 .portfolio-modal .modal-backdrop {

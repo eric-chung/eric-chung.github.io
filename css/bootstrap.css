@@ -7264,5 +7264,5 @@ nav.contact .slider .gold {
 }
 
 .services li:before {
-  content: url(star.png);
+  content: url("img/star.png");
 }

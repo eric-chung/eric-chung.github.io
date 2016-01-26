@@ -7260,7 +7260,7 @@ nav.contact .slider .gold {
 }
 
 .services {
-  list-style-type: circle;
+  list-style: none;
 }
 
 .services li::before {

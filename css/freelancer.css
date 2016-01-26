@@ -336,6 +336,7 @@ section.success a:active {
 }
 
 .floating-label-form-group label {
+    color: #a5915e;
     display: block;
     z-index: 0;
     position: relative;

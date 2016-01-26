@@ -7263,6 +7263,6 @@ nav.contact .slider .gold {
   list-style: none;
 }
 
-.services li::before {
+.services li:before {
   content: url(star.png);
 }

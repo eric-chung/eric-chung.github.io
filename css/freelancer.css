@@ -528,3 +528,9 @@ footer hr.starlight{
   text-align: left;
   margin: 0 auto 30px;
 }
+
+.services li {
+  padding: 10px;
+  font-size: 16px;
+  color: #f7f5f2;
+}

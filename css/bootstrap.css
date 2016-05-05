@@ -4674,7 +4674,7 @@ nav {
   }
 }
 .navbar-default {
-  background-color: #0f0d0b;
+  background-color: #f7f5f2;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -4685,20 +4685,20 @@ nav {
   width: 110%;
 }
 .navbar-default .navbar-text {
-  color: #a5915e;
+  color: #242424;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #a5915e;
+  color: #242424;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #f7f5f2;
+  color: #b7b7b7;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #f7f5f2;
+  color: #b7b7b7;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,

@@ -4488,6 +4488,7 @@ nav {
   padding: 0px;
   margin: 0px;
   list-style-type: none;
+  float: left;
   /*text-align: center;
   max-width: 600px;
   position: relative;

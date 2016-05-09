@@ -1127,8 +1127,9 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
+  float: left;
   display: block;
-  max-width: 100%;
+  /*max-width: 100%;*/
   height: auto;
 }
 .img-rounded {

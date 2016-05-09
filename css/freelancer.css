@@ -20,7 +20,7 @@ p.small {
 a {
   color: #a5915e;
   text-decoration: none;
-  border-style: dashed;
+  /*border-style: dashed;*/
   border-width: 0 0 1px;
 }
 
@@ -112,7 +112,7 @@ header .container {
 
 header img {
     display: block;
-    margin: 60px auto;
+    margin: 10px auto;
 }
 
 header .intro-text .name {
@@ -231,7 +231,7 @@ section.success a:active {
 }
 
 #portfolio {
-  background: #0f0d0b;
+  background: #ffffff;
 }
 
 #portfolio h2 {
@@ -373,7 +373,7 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #a5915e;
-    background-color: #0f0d0b;
+    background-color: #ffffff;
 }
 
 footer .footer-above {

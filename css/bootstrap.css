@@ -7264,3 +7264,13 @@ nav.contact .slider .gold {
 .services {
   list-style-image: url(/img/star.png);
 }
+
+.project-desc {
+  width: 50%;
+  float: left;
+}
+
+.project-info {
+  width: 50%;
+  float: right;
+}

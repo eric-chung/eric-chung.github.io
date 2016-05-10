@@ -6524,7 +6524,7 @@ button.close {
   background-repeat: repeat-x;*/
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
-.carousel-control:hover,
+.carousel-control:hover
 /*.carousel-control:focus*/ {
   outline: 0;
   color: #f7f5f2;

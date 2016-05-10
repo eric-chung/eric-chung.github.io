@@ -6525,7 +6525,7 @@ button.close {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
 .carousel-control:hover,
-.carousel-control:focus {
+/*.carousel-control:focus*/ {
   outline: 0;
   color: #f7f5f2;
   text-decoration: none;

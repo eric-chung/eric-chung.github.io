@@ -231,7 +231,7 @@ section.success a:active {
 }
 
 #portfolio {
-  background: #ffffff;
+  background: #f7f5f2;
 }
 
 #portfolio h2 {
@@ -372,8 +372,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #a5915e;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #373737;
 }
 
 footer .footer-above {
@@ -443,7 +443,7 @@ footer hr.starlight{
     border: 0;
     border-radius: 0;
     background-clip: border-box;
-    background: #0f0d0b;
+    background: #f7f5f2;
     -webkit-box-shadow: none;
     box-shadow: none;
 }

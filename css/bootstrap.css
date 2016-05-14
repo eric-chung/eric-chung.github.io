@@ -7274,3 +7274,15 @@ nav.contact .slider .gold {
   width: 50%;
   float: right;
 }
+
+.nbtc15 {
+  margin-bottom: 40px;
+  width: 404px;
+  height: 316px;
+  display: block;
+  background: transparent url('img/nbtc15.png') center top no-repeat;
+}
+
+.nbtc15:hover {
+  background-image: url('img/nbtc15_0.png');
+}

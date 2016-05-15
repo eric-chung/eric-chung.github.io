@@ -7276,10 +7276,7 @@ nav.contact .slider .gold {
 }
 
 .nbtc15 {
-  /*margin-bottom: 40px;*/
-  width: 404px;
-  height: 316px;
-  display: block;
+  margin-bottom: 40px;
   background-image: url('/img/portfolio/nbtc15.png');
 }
 

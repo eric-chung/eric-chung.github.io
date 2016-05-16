@@ -7278,7 +7278,7 @@ nav.contact .slider .gold {
 .nbtc15 {
   margin-bottom: 40px;
   display: block;
-  background-image: url('/img/portfolio/nbtc15.png');
+  background: transparent url('/img/portfolio/nbtc15.png');
 }
 
 .nbtc15:hover {

@@ -7287,3 +7287,10 @@ nav.contact .slider .gold {
 .nbtc15:hover {
   background-image: url('/img/portfolio/nbtc15_0.png');
 }
+
+.nothing {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: red;
+}

@@ -268,10 +268,16 @@ section.success a:active {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
-    background: url('/img/portfolio/halt_0.png');
     width: 100%;
     height: auto;
+    opacity: 0;
 }
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content:hover {
+    opacity: 1;
+}
+
+
 /*
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;

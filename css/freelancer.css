@@ -263,7 +263,7 @@ section.success a:active {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -272,13 +272,13 @@ section.success a:active {
     height: auto;
     opacity: 0;
 }
-
+/*
 #portfolio .portfolio-item .portfolio-link .caption .caption-content:hover {
     opacity: 1;
 }
 
 
-/*
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }

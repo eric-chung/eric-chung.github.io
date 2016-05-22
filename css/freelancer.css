@@ -268,14 +268,11 @@ section.success a:active {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
-    top: 50%;
+    background: url('/img/portfolio/halt_0.png');
     width: 100%;
     height: auto;
-    text-align: center;
-    font-size: 14px;
-    color: #f7f5f2;
 }
-
+/*
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
@@ -283,7 +280,7 @@ section.success a:active {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
-}
+}*/
 
 #portfolio * {
     z-index: 2;

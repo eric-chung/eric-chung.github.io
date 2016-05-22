@@ -256,7 +256,6 @@ section.success a:active {
     width: 100%;
     height: auto;
     opacity: 0;
-    background: rgba(15,13,11);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -266,12 +265,6 @@ section.success a:active {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    opacity: 0;
-}
 /*
 #portfolio .portfolio-item .portfolio-link .caption .caption-content:hover {
     opacity: 1;

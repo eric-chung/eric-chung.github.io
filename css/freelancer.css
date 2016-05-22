@@ -256,7 +256,7 @@ section.success a:active {
     width: 100%;
     height: auto;
     opacity: 0;
-    background: rgba(15,13,11,.8);
+    background: rgba(15,13,11);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;

@@ -463,6 +463,12 @@ footer hr.starlight{
     margin: 0;
 }
 
+.portfolio-modal .modal-content .item-details > li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+
 .portfolio-modal .close-modal {
     position: absolute;
     top: 0px;

@@ -3075,13 +3075,15 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #c0cccc;
+  color: #bcbcbc;
   background-color: transparent;
+  text-decoration: underline;
 }
 
 .btn-behance {
-  color: #a5915e;
+  color: #bcbcbc;
   background-color: transparent;
+  text-decoration: underline;
   margin-right: 12px;
 }
 

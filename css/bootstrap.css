@@ -1089,9 +1089,9 @@ html {
 }
 body {
   font-family: 'ProximaNova', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.42857143;
-  color: #f7f5f2;
+  color: #231f20;
   background-color: #f7f5f2;
 }
 input,
@@ -1156,7 +1156,7 @@ hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #232323;
+  border-top: 1px solid #231f20;
 }
 
 .sr-only {
@@ -1442,9 +1442,10 @@ ol ol {
   list-style: none;
   margin-left: -5px;
 }
+/*
 .list-inline > li {
   padding-right: 5px;
-}
+}*/
 dl {
   margin-top: 0;
   margin-bottom: 21px;
@@ -4686,10 +4687,10 @@ nav {
   width: 110%;
 }
 .navbar-default .navbar-text {
-  color: #242424;
+  color: #231f20;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #242424;
+  color: #231f20;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -7268,11 +7269,14 @@ nav.contact .slider .gold {
 .project-desc {
   width: 50%;
   float: left;
+  padding: 0 10px;
+
 }
 
 .project-info {
   width: 50%;
   float: right;
+  padding: 0 10px;
 }
 
 .nbtc15 {

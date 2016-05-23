@@ -3089,9 +3089,9 @@ fieldset[disabled] a.btn {
 
 .btn-default:focus,
 .btn-default.focus {
-  color: #f7f5f2;
+  color: #231f20;
   background-color: #transparent;
-  border: 2px solid #f7f5f2;
+  border: 2px solid #231f20;
 }
 
 .btn-behance:focus,
@@ -3102,9 +3102,9 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default:hover {
-  color: #f7f5f2;
+  color: #231f20;
   background-color: transparent;
-  border: 2px solid #f7f5f2
+  border: 2px solid #231f20
 }
 
 .btn-behance:hover {
@@ -3116,9 +3116,9 @@ fieldset[disabled] a.btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #f7f5f2;
+  color: #231f20;
   background-color: transparent;
-  border: 2px solid #f7f5f2;
+  border: 2px solid #231f20;
 }
 
 .btn-behance:active,
@@ -3138,9 +3138,9 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-  color: #f7f5f2;
+  color: #231f20;
   background-color: transparent;
-  border: 2px solid #f7f5f2;
+  border: 2px solid #231f20;
 }
 
 .btn-behance:active:hover,

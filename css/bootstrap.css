@@ -6087,7 +6087,7 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #f7f5f2;
+  background-color: #fefeff;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
@@ -7266,18 +7266,15 @@ nav.contact .slider .gold {
   list-style-image: url(/img/star.png);
 }
 
-.project-desc {
-  width: 50%;
-  float: left;
-  padding: 0 0 30px 10px;
-
-}
-
 .project-info {
   width: 100%;
-  float: right;
   padding: 0 10px 30px 0;
-  text-align: right;
+}
+
+.project-desc {
+  width: 50%;
+  padding: 0 0 30px 10px;
+
 }
 
 .nbtc15 {

@@ -3075,15 +3075,13 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #a5915e;
+  color: #c0cccc;
   background-color: transparent;
-  border: 2px solid #a5915e;
 }
 
 .btn-behance {
   color: #a5915e;
   background-color: transparent;
-  border: 2px solid #a5915e;
   margin-right: 12px;
 }
 
@@ -3091,26 +3089,22 @@ fieldset[disabled] a.btn {
 .btn-default.focus {
   color: #231f20;
   background-color: #transparent;
-  border: 2px solid #231f20;
 }
 
 .btn-behance:focus,
 .btn-behance.focus {
   color: #1769ff;
   background-color: #transparent;
-  border: 2px solid #1769ff;
 }
 
 .btn-default:hover {
   color: #231f20;
   background-color: transparent;
-  border: 2px solid #231f20
 }
 
 .btn-behance:hover {
   color: #1769ff;
   background-color: transparent;
-  border: 2px solid #1769ff;
 }
 
 .btn-default:active,
@@ -3118,7 +3112,6 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default {
   color: #231f20;
   background-color: transparent;
-  border: 2px solid #231f20;
 }
 
 .btn-behance:active,
@@ -3126,7 +3119,6 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-behance {
   color: #1769ff;
   background-color: transparent;
-  border: 2px solid #1769ff;
 }
 
 .btn-default:active:hover,
@@ -3140,7 +3132,6 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default.focus {
   color: #231f20;
   background-color: transparent;
-  border: 2px solid #231f20;
 }
 
 .btn-behance:active:hover,
@@ -3154,7 +3145,6 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-behance.focus {
   color: #1769ff;
   background-color: transparent;
-  border: 2px solid #1769ff;
 }
 
 .btn-default:active,
@@ -3188,7 +3178,6 @@ fieldset[disabled] .btn-default:active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
   background-color: #95a5a6;
-  border-color: 2px #95a5a6;
 }
 
 .btn-behance.disabled,
@@ -3210,7 +3199,6 @@ fieldset[disabled] .btn-behance:active,
 .btn-behance[disabled].active,
 fieldset[disabled] .btn-behance.active {
   background-color: #95a5a6;
-  border-color: 2px #95a5a6;
 }
 
 .btn-default .badge {
@@ -7268,7 +7256,7 @@ nav.contact .slider .gold {
 
 .project-info {
   width: 100%;
-  padding: 0 10px 30px 0;
+  padding: 0 0 30px 10px;
 }
 
 .project-desc {

@@ -7267,15 +7267,9 @@ nav.contact .slider .gold {
 
 }
 
-.nbtc15 {
-  margin-bottom: 30px;
-  float: left;
-  display: block;
-  max-width: 100%;
-  height: auto;
-  background-image: url('/img/portfolio/nbtc15.png');
-}
-
-.nbtc15:hover {
-  background-image: url('/img/portfolio/nbtc15_0.png');
+.line {
+  width: 100px;
+  height: 2px;
+  border-bottom: 1px solid #bcbcbc;
+  position: absolute;
 }

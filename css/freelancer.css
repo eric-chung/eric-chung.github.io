@@ -49,7 +49,6 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: 'ProximaNova',"Proxima Nova",Helvetica,Arial,sans-serif;
-    font-weight: bold;
 }
 
 h2 {
@@ -446,7 +445,7 @@ footer hr.starlight{
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 2.5em;
-    color: #242424;
+    color: #231f20;
     text-align: center;
     margin: -20px 0 60px;
 }

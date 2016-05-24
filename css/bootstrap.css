@@ -7270,6 +7270,7 @@ nav.contact .slider .gold {
 .line {
   width: 100px;
   height: 2px;
-  border-bottom: 1px solid #bcbcbc;
+  border-bottom: 1px solid;
+  border-color: #bcbcbc;
   position: absolute;
 }

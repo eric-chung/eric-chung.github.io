@@ -7281,14 +7281,12 @@ body{   background:url('http://cs625217.vk.me/v625217712/1a11c/0QgZ5V0MWEo.jpg')
   background: transparent;
   opacity:0.8;
   color: #231f20;
-  box-shadow:inset 0 0 0 1px black;
   float: right;
 }
 
 .lower:hover{
-  background:black;
-  color:white;
-  box-shadow:inset 0 0 0 1px white;
+  background: #231f20;
+  color: #fefeff;
   border:30px solid black;
 }
 

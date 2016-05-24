@@ -7267,10 +7267,11 @@ nav.contact .slider .gold {
 
 }
 
-.line {
-  width: 100px;
-  height: 2px;
-  border-bottom: 1px solid;
-  border-color: #bcbcbc;
-  position: absolute;
+hr.line {
+    padding-bottom: 30px;
+    max-width: 360px;
+    border: 0;
+    border-color: #bcbcbc;
+    border-bottom: solid 1px;
+    text-align: center;
 }

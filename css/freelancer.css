@@ -209,7 +209,7 @@ section h2 {
 }
 
 section.success {
-    color: #f7f5f2;
+    color: #231f20;
     background: #fefeff;
 }
 
@@ -512,11 +512,11 @@ footer hr.starlight{
 }
 
 #contact {
-  background: #0f0d0b;
+  background: #fefeff;
 }
 
 #contact h2 {
-  color: #f7f5f2;
+  color: #231f20;
 }
 
 #contact hr.star-light {

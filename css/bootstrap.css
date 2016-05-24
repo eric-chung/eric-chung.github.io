@@ -1152,13 +1152,6 @@ img {
   border-radius: 50%;
 }
 
-hr {
-  margin-top: 21px;
-  margin-bottom: 21px;
-  border: 0;
-  border-top: 1px solid #231f20;
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -7269,9 +7262,9 @@ nav.contact .slider .gold {
 
 hr.line {
     padding-bottom: 30px;
-    max-width: 360px;
+    max-width: 300px;
     border: 0;
     border-color: #bcbcbc;
-    border-bottom: solid 1px;
+    border-top: solid 1px;
     text-align: center;
 }

@@ -7447,7 +7447,7 @@ nav ul li a:hover {
 	color: #34B484;
 }
 /*styling open close button*/
-.button {
+.button-menu {
 	display:inline;
 	position:absolute;
 	right:50px;
@@ -7455,7 +7455,7 @@ nav ul li a:hover {
 	z-index:999;
 	font-size:30px;
 }
-.button a {
+.button-menu a {
 	text-decoration:none;
 }
 .btn-open:after {

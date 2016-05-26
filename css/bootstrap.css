@@ -4108,9 +4108,7 @@ nav {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
-  max-width: 450px;
 	margin: 0px auto;
-  border-top: 1px solid rgba(165, 145, 94, 0.5);
 	position: relative;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -7436,7 +7434,6 @@ nav ul li a {
 	display:inline-block;
 	padding:1em 3em;
 	text-decoration:none;
-	border-bottom:2px solid #fff;
 	transition-property:all .2s linear 0s;
 	-moz-transition:all .2s linear 0s;
 	-webkit-transition:all .2s linear 0s;

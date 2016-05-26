@@ -3,6 +3,7 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under the MIT license
  */
+ cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
@@ -2363,13 +2364,13 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 $(document).ready(function(){
-    $(".button-menu").click(function(){
+    $(".button-menu a").click(function(){
         $(".overlay").fadeToggle(200);
        $(this).toggleClass('btn-open').toggleClass('btn-close');
     });
 });
 $('.overlay').on('click', function(){
     $(".overlay").fadeToggle(200);
-    $(".button-menu").toggleClass('btn-open').toggleClass('btn-close');
+    $(".button-menu a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });

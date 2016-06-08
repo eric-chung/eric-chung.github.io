@@ -7267,6 +7267,16 @@ hr.line {
     text-align: center;
 }
 
+.menu-style {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bcbcbc;
+}
+
+.menu-style:hover {
+    color: #231f20;
+}
+
 .burger {
     display: inline-block;
     float: right;

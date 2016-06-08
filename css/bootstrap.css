@@ -7266,3 +7266,17 @@ hr.line {
     border-top: solid 1px;
     text-align: center;
 }
+
+.burger {
+    display: inline-block;
+    float: right;
+}
+
+.burger-list {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.burger-list:hover {
+    color: #ff0000;
+}

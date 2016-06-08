@@ -7293,7 +7293,7 @@ hr.line {
 }
 
 .nav {
-  list-style: none;
+  list-style-type: none;
 }
 
 .transp {

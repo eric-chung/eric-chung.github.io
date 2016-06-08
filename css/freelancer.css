@@ -490,7 +490,7 @@ footer hr.starlight{
     width: 2px;
     height: 50px;
     margin-left: 45px;
-    background-color: #a5915e;
+    background-color: #231f20;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -500,7 +500,7 @@ footer hr.starlight{
     z-index: 1052;
     width: 2px;
     height: 50px;
-    background-color: #a5915e;
+    background-color: #231f20;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

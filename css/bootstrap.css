@@ -7270,11 +7270,11 @@ hr.line {
 .menu-style {
     font-size: 24px;
     font-weight: bold;
-    color: #bcbcbc;
+    color: #231f20;
 }
 
 .menu-style:hover {
-    color: #231f20;
+    color: #18e8b6;
 }
 
 .burger {
@@ -7283,10 +7283,19 @@ hr.line {
 }
 
 .burger-list {
-    font-size: 36px;
+    font-size: 90px;
     font-weight: bold;
+    color: #231f20;
 }
 
 .burger-list:hover {
-    color: #ff0000;
+    color: #18e8b6;
+}
+
+.nav {
+  list-style: none;
+}
+
+.transp {
+  opacity: 0.8;
 }

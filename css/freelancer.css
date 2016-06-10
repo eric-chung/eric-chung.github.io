@@ -478,7 +478,7 @@ footer hr.starlight{
     padding: 25px 0 25px 0;
     background-color: transparent;
     cursor: pointer;
-    opacity: .4;
+    opacity: 0.4;
 }
 
 .portfolio-modal .close-modal:hover {

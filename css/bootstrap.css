@@ -3610,6 +3610,7 @@ input[type="button"].btn-block {
 }
 .fade.in {
   opacity: 1;
+  padding: 0;
 }
 .collapse {
   display: none;
@@ -6068,10 +6069,7 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #fefeff;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  background-color: transparent;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   -webkit-background-clip: padding-box;
@@ -7302,5 +7300,5 @@ hr.line {
 
 .menu-container {
   background-color: #18e8b6;
-    opacity: 0.8;
+  opacity: 0.8;
 }

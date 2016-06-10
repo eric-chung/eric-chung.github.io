@@ -506,6 +506,14 @@ footer hr.starlight{
     transform: rotate(90deg);
 }
 
+.portfolio-modal .close-modal-menu .lr {
+  background-color: #ffffff;
+}
+
+.portfolio-modal .close-modal-menu .lr .rl {
+  background-color: #ffffff;
+}
+
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;

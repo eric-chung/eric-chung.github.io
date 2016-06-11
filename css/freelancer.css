@@ -443,6 +443,10 @@ footer hr.starlight{
     box-shadow: none;
 }
 
+.portfolio-modal .modal-content-menu {
+    background: transparent;
+}
+
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 2.5em;
@@ -504,6 +508,10 @@ footer hr.starlight{
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.portfolio-modal .close-modal-menu {
+  opacity: 1;
 }
 
 .portfolio-modal .close-modal-menu .lr {

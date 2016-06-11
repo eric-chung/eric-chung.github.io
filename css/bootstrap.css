@@ -6148,6 +6148,7 @@ button.close {
 }
 .modal-body {
   position: relative;
+  overflow: hidden;
 }
 .modal-footer {
   padding: 20px;

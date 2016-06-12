@@ -7364,9 +7364,8 @@ hr.line {
   opacity: 0.8;
 }
 
-.div-pics {
-  overflow: scroll;
-  height: 480px;
+.fix {
+  position: fixed;
 }
 
 .portfolio-img {

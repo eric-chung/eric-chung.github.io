@@ -7367,3 +7367,8 @@ hr.line {
   overflow: scroll;
   height: 600px;
 }
+
+.portfolio-img {
+  width: 100%;
+  padding: 10px;
+}

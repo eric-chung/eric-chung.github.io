@@ -1433,7 +1433,6 @@ ol ol {
 .list-inline {
   padding-left: 0;
   list-style: none;
-  margin-left: -5px;
 }
 /*
 .list-inline > li {
@@ -7305,12 +7304,12 @@ nav.contact .slider .gold {
 
 .project-info {
   width: 100%;
-  padding: 0 0 30px 10px;
+  padding-bottom: 30px;
 }
 
 .project-desc {
-  width: 75%;
-  padding: 0 0 30px 10px;
+  width: 90%;
+  padding-bottom: 30px;
 
 }
 

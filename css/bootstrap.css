@@ -6165,6 +6165,9 @@ button.close {
   position: relative;
   overflow: hidden;
 }
+.modal-body > img {
+  max-height: 500px;
+}
 .modal-footer {
   padding: 20px;
   text-align: right;
@@ -7360,4 +7363,9 @@ hr.line {
 .menu-container {
   background-color: #18e8b6;
   opacity: 0.8;
+}
+
+.div-pics {
+  overflow: scroll;
+  height: 600px;
 }

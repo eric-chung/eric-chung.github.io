@@ -1249,7 +1249,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-bottom: 10.5px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 h4 small,
 .h4 small,
@@ -7316,9 +7317,9 @@ nav.contact .slider .gold {
 }
 
 hr.line {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     border: 0;
-    border-color: #bcbcbc;
+    border-color: #efefef;
     border-top: solid 1px;
     text-align: center;
 }

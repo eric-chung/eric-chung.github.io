@@ -6167,7 +6167,6 @@ button.close {
 }
 .modal-body > img {
   width: 100%;
-  max-height: 500px;
 }
 .modal-footer {
   padding: 20px;
@@ -7372,5 +7371,5 @@ hr.line {
 
 .portfolio-img {
   width: 100%;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }

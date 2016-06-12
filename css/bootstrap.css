@@ -7333,10 +7333,12 @@ hr.line {
     font-size: 120px;
     font-weight: bold;
     color: #ffffff;
+    opacity: 1;
 }
 
 .burger-list:hover {
     color: #18e8b6;
+    opacity: 1;
 }
 
 .navbar {

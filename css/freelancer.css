@@ -266,22 +266,6 @@ section.success a:active {
     opacity: 1;
 }
 
-/*
-#portfolio .portfolio-item .portfolio-link .caption .caption-content:hover {
-    opacity: 1;
-}
-
-
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
-}*/
-
 #portfolio * {
     z-index: 2;
 }

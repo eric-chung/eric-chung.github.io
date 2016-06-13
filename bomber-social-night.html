@@ -144,9 +144,8 @@
     <script>
     $(document).ready(function(){
         var header = $("#fixed-div");
-        var clientHeight = document.getElementById("pics-div").clientHeight;
         $(document).scroll(function(e) {
-            if($(this).scrollTop() <= $(clientHeight))  {
+            if($(this).scrollTop() <= $(document.getElementById("pics-div").clientHeight))  {
                 header.css("position", "fixed");
             } else {
                 header.css("position", "relative");

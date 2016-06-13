@@ -145,7 +145,7 @@
     $(document).ready(function(){
         var header = $("#fixed-div");
         $(document).scroll(function(e) {
-            if($(this).scrollTop() <= (this).scrollHeight - 300)  {
+            if($(this).scrollTop() <= $(this).scrollHeight() - 300)  {
                 header.css({position: "fixed", "top" : "0"});
             } else {
                 header.css("position", "relative");

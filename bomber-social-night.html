@@ -142,13 +142,17 @@
 
     <!-- Fixed scrolling on portfolio page-->
     <script>
-      window.onscroll = function(){
+    $(document).ready(function(){
+      var header = $("#fixed-div");
+      $(document).scroll(function(e) {
+        if($(this).scrollBottom() >= 300)  {
+            header.css({position: "fixed", "top" : "0"});
+        } else {
+            header.css("position", "relative");
+        }
+      });
+    });
 
-         if(window.scrollY >= 500) { // change target to number
-            document.getElementById('fixed-div').style.position = 'relative';
-         }
-
-      };
     </script>
 
 

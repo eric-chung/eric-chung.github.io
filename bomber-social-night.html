@@ -74,7 +74,7 @@
             <button type="button" class="btn btn-behance">View project on Behance</button>
           </a>
         </div>
-        <div class="col-lg-right-7 col-lg-offset-right-1">
+        <div class="col-lg-right-7 col-lg-offset-right-1" id="pics-div">
           <div class="modal-body">
               <img class="portfolio-img" src="img/portfolio/bomber_1.jpg"/>
               <img class="portfolio-img" src="img/portfolio/bomber_2.jpg"/>
@@ -144,14 +144,16 @@
     <script>
     $(document).ready(function(){
         var header = $("#fixed-div");
+        var clientHeight = document.getElementById('pics-div').clientHeight;
         $(document).scroll(function(e) {
-            if($(this).scrollTop() <= $(this).scrollHeight() - 1000)  {
+            if($(this).scrollTop() <= clientHeight)  {
                 header.css("position", "fixed");
             } else {
                 header.css("position", "relative");
             }
-        })
+        });
     });
+
 
 
     </script>

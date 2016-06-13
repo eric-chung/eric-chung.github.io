@@ -141,6 +141,18 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
 
+    // Fixed scrolling on portfolio page
+    <script>
+      window.onscroll = function(){
+
+         if(window.scrollY >= target) { // change target to number
+            document.getElementById('fixed-div').style.position = 'relative';
+         }
+
+      };
+    </script>
+
+
 </body>
 
 </html>

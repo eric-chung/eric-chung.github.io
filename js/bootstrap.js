@@ -2403,3 +2403,12 @@ if (typeof jQuery === 'undefined') {
 	triggerBttn.addEventListener( 'click', toggleOverlay );
 	closeBttn.addEventListener( 'click', toggleOverlay );
 })();
+
+// Fixed scrolling on portfolio page
+window.onscroll = function(){
+
+   if(window.scrollY >= target) { // change target to number
+      document.getElementById('fixed-div').style.position = 'relative';
+   }
+
+};

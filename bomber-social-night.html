@@ -43,47 +43,45 @@
 <body id="page-top" class="index">
     <!-- Header -->
     <div class="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <a href="index.html">
-          <div class="close-modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
+      <a href="index.html">
+        <div class="close-modal">
+          <div class="lr">
+              <div class="rl">
+              </div>
           </div>
-        </a>
-      <div class="row">
-        <div class="col-lg-3 col-lg-offset-1 fix" id="fixed-div">
-          <h4><strong>Bomber Social Night</strong></h4>
-          <hr class="line"/>
-          <div class="project-info">
-            <ul class="list-inline item-details">
-                <li><strong>Client: </strong>Taiwanese Waterloo Student Association
-                </li>
-                <li><strong>Year: </strong>2014
-                </li>
-                <li><strong>Service: </strong>Graphic Design
-                </li>
-            </ul>
-          </div>
-          <div class="project-desc">
-            <strong>Description:<br></strong>
-            Poster and Facebook banner design for Bomber Social Night, presented by the Taiwanese Waterloo Student Association.
-          </div>
-          <br><br><br>
-          <a href="https://www.behance.net/gallery/21173903/TWSA-Bomber-Social-Night" target="_blank">
-            <button type="button" class="btn btn-behance">View project on Behance</button>
-          </a>
         </div>
-        <div class="col-lg-right-7 col-lg-offset-right-1" id="pics-div">
-          <div class="modal-body">
-              <img class="portfolio-img" src="img/portfolio/bomber_1.jpg"/>
-              <img class="portfolio-img" src="img/portfolio/bomber_2.jpg"/>
-          </div>
+      </a>
+    <div class="col-lg-3 col-lg-offset-1 fix" id="fixed-div">
+        <h4><strong>Bomber Social Night</strong></h4>
+        <hr class="line"/>
+        <div class="project-info">
+          <ul class="list-inline item-details">
+              <li><strong>Client: </strong>Taiwanese Waterloo Student Association
+              </li>
+              <li><strong>Year: </strong>2014
+              </li>
+              <li><strong>Service: </strong>Graphic Design
+              </li>
+          </ul>
+        </div>
+        <div class="project-desc">
+          <strong>Description:<br></strong>
+          Poster and Facebook banner design for Bomber Social Night, presented by the Taiwanese Waterloo Student Association.
+        </div>
+        <br><br><br>
+        <a href="https://www.behance.net/gallery/21173903/TWSA-Bomber-Social-Night" target="_blank">
+          <button type="button" class="btn btn-behance">View project on Behance</button>
+        </a>
+      </div>
+      <div class="col-lg-right-7 col-lg-offset-right-1" id="pics-div">
+        <div class="modal-body">
+            <img class="portfolio-img" src="img/portfolio/bomber_1.jpg"/>
+            <img class="portfolio-img" src="img/portfolio/bomber_2.jpg"/>
         </div>
       </div>
     </div>
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" id="footer">
         <div class="footer-above">
             <div class="container">
                 <hr class="star-light">
@@ -142,19 +140,18 @@
 
     <!-- Fixed scrolling on portfolio page-->
     <script>
-    $(document).ready(function(){
-        var header = $("#fixed-div");
-        $(document).scroll(function(e) {
-            if($(this).scrollTop() <= 300)  {
-                header.css("position", "fixed");
-            } else {
-                header.css("position", "relative");
-            }
-        });
+
+    $(document).scroll(function() {
+        checkOffset();
     });
 
-
-
+    function checkOffset() {
+        if($('#fixed-div').offset().top + $('#fixed-div').height() >= $('#footer').offset().top - 10)
+            $('#fixed-div').css('position', 'absolute');
+        if($(document).scrollTop() + window.innerHeight < $('#footer').offset().top)
+            $('#fixed-div').css('position', 'fixed'); // restore when you scroll up
+    }
+    
     </script>
 
 

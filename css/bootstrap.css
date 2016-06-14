@@ -6099,6 +6099,7 @@ button.close {
   z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0;
+  background-color: #ffffff;
 }
 .modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);

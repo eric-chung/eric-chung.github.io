@@ -7367,6 +7367,7 @@ hr.line {
 
 .fix {
   position: fixed;
+  z-index: 1048;
 }
 
 .portfolio-img {

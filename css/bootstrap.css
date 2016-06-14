@@ -1418,7 +1418,7 @@ a.bg-danger:focus {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10.5px;
+  margin-bottom: 0;
 }
 ul ul,
 ol ul,
@@ -4370,8 +4370,6 @@ nav {
 .navbar {
   position: relative;
   min-height: 60px;
-  margin-bottom: 21px;
-  border: 1px solid transparent;
 }
 @media (min-width: 768px) {
   .navbar {

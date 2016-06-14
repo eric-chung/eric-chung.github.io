@@ -358,11 +358,11 @@ footer {
 }
 
 footer .footer-above {
-    padding-top: 15px;
+    padding-top: 15px 0;
 }
 
 footer .footer-below {
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 footer hr.starlight{

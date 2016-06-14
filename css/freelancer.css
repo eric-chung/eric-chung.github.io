@@ -357,20 +357,17 @@ footer {
     background-color: #231f20;
 }
 
-footer .footer-portfolio {
+.footer-portfolio {
     color: #231f20;
     background-color: #ffffff;
 }
 
 footer .footer-above {
-    padding-top: 30px 0;
+    padding: 30px 0;
 }
 
 footer .footer-below {
     padding: 30px 0;
-}
-
-footer hr.starlight{
 }
 
 .icon-social {

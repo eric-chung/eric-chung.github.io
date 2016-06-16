@@ -101,7 +101,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Fontello',"Fontello",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat',"Montserrat",Helvetica,Arial,sans-serif;
 }
 
 h2 {
@@ -118,35 +118,6 @@ hr.star-primary {
     border-top: solid 1px;
     text-align: center;
 }
-
-/*hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: 'ProximaNova';
-    font-size: 2em;
-}*/
-
-hr.star-light {
-    border-color: #a5915e;
-}
-
-/*hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-}
-
-hr.star-primary {
-    border-color: #232323;
-}
-
-hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
-}*/
 
 .img-centered {
     margin: 0 auto;
@@ -171,7 +142,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: 'ProximaNova',"Proxima Nova",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat',"Montserrat",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -232,7 +203,7 @@ header .slider {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'ProximaNova',"Proxima Nova",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat',"Montserrat",Helvetica,Arial,sans-serif;
 }
 
 .navbar a:focus {

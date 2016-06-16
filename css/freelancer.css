@@ -41,7 +41,7 @@ a:active {
   color: #1769ff;
 }
 
-a:before {
+footer > a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -86,7 +86,9 @@ a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover:before {
+footer > a:hover:before,
+.burger-list:hover:before,
+.behance:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

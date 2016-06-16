@@ -41,7 +41,7 @@ a:active {
   color: #1769ff;
 }
 
-.modal > a:before {
+a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -86,9 +86,7 @@ a:active {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.modal > a:hover:before,
-.burger-list:hover:before,
-.behance:hover:before {
+a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

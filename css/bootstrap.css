@@ -7301,7 +7301,7 @@ hr.line {
 
 .modal > a,
 .burger-list.
-.btn-behance {
+.behance {
   position: relative;
   text-decoration: none;
 }
@@ -7320,16 +7320,16 @@ hr.line {
   color: #ffffff;
 }
 
-.btn-behance.
-.btn-behance:hover,
-.btn-behance:focus,
-.btn-behance:active {
+.behance.
+.behance:hover,
+.behance:focus,
+.behance:active {
   color: #1769ff;
 }
 
 .modal > a:before,
 .burger-list:before.
-.btn-behance:before {
+.behance:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -7354,14 +7354,14 @@ hr.line {
   background-color: #ffffff;
 }
 
-.btn-behance {
+.behance {
   height: 2px;
   background-color: #1769ff;
 }
 
 .modal > a:hover:before,
 .burger-list,
-.btn-behance {
+.behance {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

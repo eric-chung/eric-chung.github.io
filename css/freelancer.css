@@ -17,28 +17,81 @@ p.small {
     font-size: 16px;
 }
 
-a {
-  color: #231f20;
-  text-decoration: none;
-  /*border-style: dashed;*/
-  border-width: 0 0 1px;
-}
-
+a,
 a:hover,
 a:focus,
-a:active,
-a.active {
-  outline: 0;
-  color: #f7f5f2;
+a:active {
+  color: #231f20;
+  position: relative;
   text-decoration: none;
   border: none;
 }
 
-.portfolio-link,
-.about-link,
-.contact-link {
-  color: #f7f5f2;
-  text-decoration: none;
+.burger-list,
+.burger-list:hover,
+.burger-list:focus,
+.burger-list:active {
+  color: #ffffff;
+}
+
+.behance,
+.behance:hover,
+.behance:focus,
+.behance:active {
+  color: #1769ff;
+}
+
+.modal > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #231f20;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.burger-list:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.behance:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #1769ff;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.modal > a:hover:before,
+.burger-list:hover:before,
+.behance:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 h1,

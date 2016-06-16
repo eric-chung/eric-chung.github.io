@@ -41,7 +41,7 @@ a:active {
   color: #1769ff;
 }
 
-footer > a:before {
+.modal-nav:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -86,7 +86,7 @@ footer > a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-footer > a:hover:before,
+.modal-nav:hover:before,
 .burger-list:hover:before,
 .behance:hover:before {
   visibility: visible;

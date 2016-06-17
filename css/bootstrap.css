@@ -1920,7 +1920,7 @@ pre code {
     float: left;
   }
   .col-md-right-1, .col-md-right-2, .col-md-right-3, .col-md-right-4, .col-md-right-5, .col-md-right-6, .col-md-right-7, .col-md-right-8, .col-md-right-9, .col-md-right-10, .col-md-right-11, .col-md-right-12 {
-    float: left;
+    float: right;
   }
   .col-md-12,
   .col-md-right-12 {

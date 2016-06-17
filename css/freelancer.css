@@ -42,10 +42,10 @@ a:active {
   left: -71px;
 }
 
-.footer-menu > a,
-.footer-menu > a:hover,
-.footer-menu > a:focus,
-.footer-menu > a:active {
+.footer-contact,
+.footer-contact:hover,
+.footer-contact:focus,
+.footer-menu:active {
   color: #ffffff;
 }
 
@@ -94,7 +94,7 @@ a:active {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.footer-nav > a:before {
+.footer-contact:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -112,7 +112,7 @@ a:active {
 .modal-nav:hover:before,
 .burger-list:hover:before,
 .behance:hover:before,
-.footer-nav > a:hover:before {
+.footer-contact:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

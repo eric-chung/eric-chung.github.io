@@ -444,11 +444,11 @@ footer .footer-below {
 .icon-social {
     display: inline-block;
     text-align: center;
-    padding: 30px;
+    margin: 0 15px;
 }
 
 .icon-social > img {
-    height: 50%;
+    max-height: 30px;
 }
 
 .icon-social2 {

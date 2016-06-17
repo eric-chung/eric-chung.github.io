@@ -7333,7 +7333,7 @@ hr.line {
 }
 
 .footer-menu {
-  list-style-type:
+  list-style-type: none;
   text-align: center;
   color: #ffffff;
 }

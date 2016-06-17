@@ -41,6 +41,13 @@ a:active {
   color: #1769ff;
 }
 
+.footer-menu > a,
+.footer-menu > a:hover,
+.footer-menu > a:focus,
+.footer-menu > a:active {
+  color: #ffffff;
+}
+
 .modal-nav:before {
   content: "";
   position: absolute;
@@ -86,9 +93,25 @@ a:active {
   transition: all 0.3s ease-in-out 0s;
 }
 
+.footer-nav > a {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
 .modal-nav:hover:before,
 .burger-list:hover:before,
-.behance:hover:before {
+.behance:hover:before,
+.footer-nav > a {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

@@ -39,7 +39,7 @@ a:active {
 .behance:focus,
 .behance:active {
   color: #1769ff;
-  left: -71px;
+  right: -5px;
 }
 
 .footer-contact,
@@ -422,6 +422,7 @@ footer {
 .footer-portfolio {
     color: #231f20;
     background-color: #ffffff;
+    margin-bottom: 45px;
 }
 
 footer .footer-above {

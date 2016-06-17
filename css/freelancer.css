@@ -429,7 +429,7 @@ footer .footer-above {
 }
 
 footer .footer-below {
-    padding: 0;
+    padding-below: 25px;
 }
 
 .icon-social {

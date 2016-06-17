@@ -438,6 +438,11 @@ footer .footer-below {
     display: inline-block;
     text-align: center;
     line-height: 45px;
+    padding: 30px;
+}
+
+.icon-social > img {
+    height: 50%;
 }
 
 .icon-social2 {

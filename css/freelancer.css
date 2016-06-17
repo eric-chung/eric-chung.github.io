@@ -607,3 +607,7 @@ footer .footer-below {
 .burger > img {
   max-width: 50%;
 }
+
+.footer-header {
+  color: #bcbcbc;
+}

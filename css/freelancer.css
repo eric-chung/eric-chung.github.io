@@ -93,7 +93,7 @@ a:active {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.footer-nav > a {
+.footer-nav > a:before {
   content: "";
   position: absolute;
   width: 100%;

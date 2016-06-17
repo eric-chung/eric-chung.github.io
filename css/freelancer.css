@@ -112,7 +112,7 @@ a:active {
 .modal-nav:hover:before,
 .burger-list:hover:before,
 .behance:hover:before,
-.footer-contact:before {
+.footer-contact:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

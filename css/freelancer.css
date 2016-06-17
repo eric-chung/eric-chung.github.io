@@ -39,6 +39,7 @@ a:active {
 .behance:focus,
 .behance:active {
   color: #1769ff;
+  left: -71px;
 }
 
 .footer-menu > a,

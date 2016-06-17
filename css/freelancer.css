@@ -603,3 +603,7 @@ footer .footer-below {
   font-size: 16px;
   color: #f7f5f2;
 }
+
+.menu > img {
+  max-width: 50%;
+}

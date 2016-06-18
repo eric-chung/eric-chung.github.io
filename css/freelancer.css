@@ -27,10 +27,10 @@ a:active {
   border: none;
 }
 
-.burger-list,
-.burger-list:hover,
-.burger-list:focus,
-.burger-list:active {
+.link-white,
+.link-white:hover,
+.link-white:focus,
+.link-white:active {
   color: #ffffff;
 }
 
@@ -40,13 +40,6 @@ a:active {
 .behance:active {
   color: #1769ff;
   right: -5px;
-}
-
-.footer-contact,
-.footer-contact:hover,
-.footer-contact:focus,
-.footer-menu:active {
-  color: #ffffff;
 }
 
 .modal-nav:before {
@@ -64,7 +57,7 @@ a:active {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.burger-list:before {
+ .link-white:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -94,25 +87,9 @@ a:active {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.footer-contact:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #ffffff;
-  bottom: -5px;
-  left: 0;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
 .modal-nav:hover:before,
-.burger-list:hover:before,
 .behance:hover:before,
-.footer-contact:hover:before {
+.link-white:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

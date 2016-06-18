@@ -76,7 +76,7 @@
   <!-- Work Section -->
       <div class="modal-content">
         <div class="row">
-          <div class="col-lg-3 col-lg-offset-1 fix">
+          <div class="col-lg-3 col-lg-offset-1 fixme">
             <h4><strong>Bomber Social Night</strong></h4>
             <hr class="line"/>
             <div class="project-info">
@@ -184,6 +184,30 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="../js/freelancer.js"></script>
+
+    <script>
+
+    var fixmeTop = $('.fixme').offset().top;       // get initial position of the element
+
+    $(window).scroll(function() {                  // assign scroll event listener
+
+    var currentScroll = $(window).scrollTop(); // get current position
+
+    if (currentScroll >= fixmeTop) {           // apply position: fixed if you
+        $('.fixme').css({                      // scroll to that element or below it
+            position: 'fixed',
+            top: '0',
+            left: '0'
+        });
+    } else {                                   // apply position: static
+        $('.fixme').css({                      // if you scroll above it
+            position: 'static'
+        });
+    }
+
+    });
+
+    </script>
 
 </body>
 

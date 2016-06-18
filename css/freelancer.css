@@ -141,7 +141,7 @@ hr.star-primary {
 header {
     text-align: center;
     color: #a5915e;
-    background: ##fefeff;
+    padding-bottom: 30px;
 }
 
 header .container {

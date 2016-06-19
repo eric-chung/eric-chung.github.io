@@ -94,18 +94,8 @@ a:hover:before,
   transform: scaleX(1);
 }
 
-.menu-hover {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  opacity: 0;
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
-}
-
-.menu-hover:hover {
-  opacity: 1;
+.nav-active {
+  color: #d6d6d6;
 }
 
 h1,
@@ -578,9 +568,5 @@ footer .footer-below {
 }
 
 .footer-header {
-  color: #bcbcbc;
-}
-
-.nav-active {
   color: #bcbcbc;
 }

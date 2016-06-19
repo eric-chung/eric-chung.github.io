@@ -98,6 +98,15 @@ a:hover:before,
   color: #d6d6d6;
 }
 
+.portfolio-link,
+.portfolio-link:hover,
+.portfolio-link:focus,
+.portfolio-link:active,
+.portfolio-link:before,
+.portfolio-link:hover:before {
+  content: none;
+}
+
 h1,
 h2,
 h3,

@@ -1205,7 +1205,7 @@ h2,
 h3,
 .h3 {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 h1 small,
 .h1 small,
@@ -1227,7 +1227,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
 h4 small,
@@ -1589,7 +1589,7 @@ pre code {
     padding-right: 15px;
   }
   .row {
-    margin: 30px -15px 0;
+    margin: 30px -15px;
   }
   .modal-content > .row {
     margin: 0 -15px;
@@ -4496,24 +4496,16 @@ nav {
   margin: 0px;
   list-style-type: none;
   float: right;
-  /*text-align: center;
-  max-width: 600px;
-  position: relative;
-  text-rendering: optimizeLegibility;
-  border-top: 1px solid rgba(165,145,94,0.25);*/
 }
 .navbar-nav > li > a {
-  padding-top: 40px;
-  padding-bottom: 10px;
   line-height: 21px;
   border: none;
 }
 
 .navbar-nav li {
   display: inline-block;
-  padding: 20px 0 20px 20px;
+  padding-left: 30px;
   text-align: center;
-  /*width: 32%;*/
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4549,7 +4541,7 @@ nav {
   }
   .navbar-nav > li > a {
     padding-top: 19.5px;
-    padding-bottom: 19.5px;
+    padding-bottom: 0;
   }
 }
 .navbar-form {
@@ -7299,16 +7291,6 @@ hr.line {
 
 .menu-style:hover {
     color: #18e8b6;
-}
-
-.burger {
-    display: inline-block;
-    float: right;
-}
-
-.burger-list {
-    font-size: 120px;
-    opacity: 1;
 }
 
 .navbar {

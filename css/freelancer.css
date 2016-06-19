@@ -139,13 +139,7 @@ hr.star-primary {
 
 header {
     text-align: center;
-    color: #a5915e;
-    padding-bottom: 30px;
-}
-
-header .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    color: #231f20;
 }
 
 header img {
@@ -178,7 +172,7 @@ header .slider {
 @media(min-width:768px) {
     header .container {
         padding-top: 40px;
-        padding-bottom: 0px;
+        padding-bottom: 40px;
     }
 
     header .intro-text .name {
@@ -269,7 +263,7 @@ section.success a:active {
 }
 
 #portfolio {
-  background: ##fefeff;
+  background: #fefeff;
 }
 
 #portfolio h2 {
@@ -403,7 +397,7 @@ footer {
 }
 
 footer .footer-above {
-    padding: 30px 0 10px;
+    padding: 30px 0;
     background-color: #18e8b6;
 }
 
@@ -583,10 +577,10 @@ footer .footer-below {
   color: #f7f5f2;
 }
 
-.burger > img {
-  max-width: 50%;
+.footer-header {
+  color: #bcbcbc;
 }
 
-.footer-header {
+.nav-active {
   color: #bcbcbc;
 }

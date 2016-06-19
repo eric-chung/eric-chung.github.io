@@ -93,6 +93,11 @@
               <strong>Description:<br></strong>
               Poster and Facebook banner design for Bomber Social Night, presented by the Taiwanese Waterloo Student Association.
             </div>
+            <div>
+              <a class="behance" href="https://www.behance.net/gallery/21173903/TWSA-Bomber-Social-Night" target="_blank">
+                View project on Behance
+              </a>
+            </div>
           </div>
 
           <div class="col-lg-right-7 col-lg-offset-right-1">
@@ -102,19 +107,17 @@
             </div>
           </div>
 
-          <div class="text-center footer-portfolio col-lg-12">
+          <div class="footer-portfolio col-lg-12">
               <div>
-                          <!--<div class="col-md-4">
-                            <a href="#portfolioModal6" class="modal-nav" data-toggle="modal" data-dismiss="modal">Previous</a>
-                          </div>-->
-                          <div class="col-lg-right-4">
-                            <a class="behance" href="https://www.behance.net/gallery/21173903/TWSA-Bomber-Social-Night" target="_blank">
-                              View project on Behance
-                            </a>
-                          </div>
-                          <!--<div class="col-md-4">
-                            <a href="#portfolioModal2" class="modal-nav" data-toggle="modal" data-dismiss="modal">Next</a>
-                          </div>-->
+                  <div class="col-md-4 col-md-offset-1">
+                    <a class="work-nav" href="#portfolioModal6">Previous Project</a>
+                  </div>
+                  <div class="text-center col-md-2">
+                    <img src="../img/menu.png"/>
+                  </div>
+                  <div class="text-right col-md-4 col-md-offset-right-1">
+                    <a class="work-nav" href="#portfolioModal2">Next Project</a>
+                  </div>
               </div>
           </div>
 
@@ -152,7 +155,7 @@
                       </div>
                       <div class="col-md-12">
                           <br><br>
-                          <br><h6 style="color:#bcbcbc; text-transform:none;">&copy; Eric Chung Design 2016. All Rights Reserved.</h6>
+                          <h6 style="color:#bcbcbc; text-transform:none;">&copy; Eric Chung Design 2016. All Rights Reserved.</h6>
                       </div>
                   </div>
               </div>
@@ -179,22 +182,30 @@
     <script>
 
     var fixmeTop = $('.fixme').offset().top;       // get initial position of the element
+    var footerTop = $('.footer-portfolio').offset().top - 460;
 
     $(window).scroll(function() {                  // assign scroll event listener
 
-    var currentScroll = $(window).scrollTop(); // get current position
+        var currentScroll = $(window).scrollTop(); // get current position
 
-    if (currentScroll >= fixmeTop) {           // apply position: fixed if you
-        $('.fixme').css({                      // scroll to that element or below it
-            position: 'fixed',
-            top: '0',
-            left: '0'
-        });
-    } else {                                   // apply position: static
-        $('.fixme').css({                      // if you scroll above it
-            position: 'relative'
-        });
-    }
+        if ((currentScroll >= fixmeTop) && (currentScroll < footerTop)) {
+            $('.fixme').css({
+                position: 'fixed',
+                top: '10px',
+                left: '-12.5px'
+            });
+        } else if (currentScroll >= fixmeTop) {
+            $('.fixme').css({
+                position: 'absolute',
+                top: '850px'
+            });
+        } else {
+            $('.fixme').css({
+                position: 'relative',
+                top: '0',
+                left: '0'
+            });
+        }
 
     });
 

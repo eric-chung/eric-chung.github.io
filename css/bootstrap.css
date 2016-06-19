@@ -1227,6 +1227,7 @@ h5,
 .h5,
 h6,
 .h6 {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 h4 small,
@@ -1588,7 +1589,7 @@ pre code {
     padding-right: 15px;
   }
   .row {
-    margin: 30px -15px;
+    margin: 30px -15px 0;
   }
   .modal-content > .row {
     margin: 0 -15px;
@@ -7278,7 +7279,7 @@ nav.contact .slider .gold {
 
 .project-desc {
   width: 90%;
-  padding-top: 15px;
+  padding: 15px 0 30px 0;
 
 }
 
@@ -7319,12 +7320,19 @@ hr.line {
   opacity: 0.8;
 }
 
-.fix {
-  position: fixed;
-  z-index: -1;
-}
-
 .portfolio-img {
   max-width: 100%;
   padding: 0 15px 15px;
+}
+
+.fixme {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.work-nav {
+  vertical-align: middle;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

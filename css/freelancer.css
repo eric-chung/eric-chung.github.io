@@ -39,10 +39,9 @@ a:active {
 .behance:focus,
 .behance:active {
   color: #1769ff;
-  right: -5px;
 }
 
-.modal-nav:before {
+a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -87,7 +86,7 @@ a:active {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.modal-nav:hover:before,
+a:hover:before,
 .behance:hover:before,
 .link-white:hover:before {
   visibility: visible;
@@ -399,6 +398,7 @@ footer {
 .footer-portfolio {
     color: #231f20;
     background-color: #ffffff;
+    margin-top: 45px;
     margin-bottom: 45px;
 }
 

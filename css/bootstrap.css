@@ -6125,7 +6125,7 @@ button.close {
   overflow: hidden;
 }
 .modal-body > img {
-  width: 100%;
+  max-width: 100%;
 }
 .modal-footer {
   padding: 20px;

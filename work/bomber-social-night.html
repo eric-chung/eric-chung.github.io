@@ -91,13 +91,13 @@
             <div class="footer-portfolio col-lg-12">
                 <div>
                     <div class="col-md-4 col-md-offset-1">
-                      <a class="work-nav" href="#portfolioModal6">Previous Project</a>
+                      <a class="work-nav" href="/xtc-records.html">Previous Project</a>
                     </div>
                     <div class="text-center col-md-2">
                       <img src="../img/menu.png"/>
                     </div>
                     <div class="text-right col-md-4 col-md-offset-right-1">
-                      <a class="work-nav" href="#portfolioModal2">Next Project</a>
+                      <a class="work-nav" href="/nbtc15.html">Next Project</a>
                     </div>
                 </div>
             </div>
@@ -162,8 +162,8 @@
 
     <script>
 
-    var fixmeTop = $('.fixme').offset().top;       // get initial position of the element
-    var footerTop = $('.footer-portfolio').offset().top - 460;
+    var fixmeTop = $('.fixme').offset().top - 10;       // get initial position of the element
+    var footerTop = $('.footer-portfolio').offset().top - 450;
 
     $(window).scroll(function() {                  // assign scroll event listener
 
@@ -178,13 +178,13 @@
         } else if (currentScroll >= fixmeTop) {
             $('.fixme').css({
                 position: 'absolute',
-                top: '850px'
+                top: '859px'
             });
         } else {
             $('.fixme').css({
-                position: 'relative',
+                position: 'absolute',
                 top: '0',
-                left: '0'
+                left: '-12.5px'
             });
         }
 

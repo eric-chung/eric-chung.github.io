@@ -407,11 +407,11 @@ footer .footer-below {
 .icon-social {
     display: inline-block;
     text-align: center;
-    margin: 0 25px;
+    margin: 0 15px;
 }
 
 .icon-social > img {
-    max-height: 24px;
+    max-height: 20px;
 }
 
 .icon-social2 {

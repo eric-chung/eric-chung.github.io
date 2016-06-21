@@ -10,21 +10,24 @@ body {
 
 p {
     font-size: 16px;
-    color: #231f20;
+    color: #807f83;
 }
 
 p.small {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  color: #231f20;
+a {
+  color: #807f83;
   position: relative;
   text-decoration: none;
   border: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #4f2683;
 }
 
 .link-white,
@@ -32,6 +35,13 @@ a:active {
 .link-white:focus,
 .link-white:active {
   color: #ffffff;
+}
+
+.link-purp,
+.link-purp:hover,
+.link-purp:focus,
+.link-purp:active {
+  color: #4f2683;
 }
 
 .behance,
@@ -46,7 +56,7 @@ a:before {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #231f20;
+  background-color: #4f2683;
   bottom: -5px;
   left: 0;
   visibility: hidden;
@@ -56,7 +66,7 @@ a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
- .link-white:before {
+.link-white:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -86,16 +96,14 @@ a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover:before,
-.behance:hover:before,
-.link-white:hover:before {
+a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 .nav-active {
-  color: #d6d6d6;
+  color: #4f2683;
 }
 
 .portfolio-link,
@@ -106,6 +114,31 @@ a:hover:before,
 .portfolio-link:hover:before {
   content: none;
 }
+
+.link-social,
+.link-social:hover,
+.link-social:focus,
+.link-social:active,
+.link-social:before,
+.link-social:hover:before {
+  content: none;
+}
+
+/*.img-responsive,
+.img-responsive:hover,
+.img-responsive:focus,
+.img-responsive:active,
+.img-responsive:before,
+.img-responsive:hover:before {
+  content: none;
+}
+
+.img-responsive:hover,
+.img-responsive:focus,
+.img-responsive:active {
+  color: #807f83;
+}*/
+
 
 h1,
 h2,
@@ -263,6 +296,7 @@ section.success a:active {
 
 #portfolio {
   background: #fefeff;
+  margin-top: -30px;
 }
 
 #portfolio h2 {
@@ -397,7 +431,7 @@ footer {
 
 footer .footer-above {
     padding: 30px 0;
-    background-color: #18e8b6;
+    background-color: #4f2683;
 }
 
 footer .footer-below {
@@ -578,10 +612,16 @@ footer .footer-below {
 }
 
 .footer-header {
-  color: #bcbcbc;
+  color: #807f83;
   letter-spacing: 2px;
 }
 
 .about-header {
   max-width: 100%;
+  margin-top: -30px;
+}
+
+.about-blurb {
+  margin: 30px 0;
+  line-height: 1.6;
 }

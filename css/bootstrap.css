@@ -1109,6 +1109,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  left: -7.5px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -2314,6 +2315,9 @@ pre code {
   }
   .col-lg-offset-1 {
     margin-left: 8.33333333%;
+  }
+  .col-lg-offset-1-5 {
+    margin-left: 7.5%;
   }
   .col-lg-offset-0 {
     margin-left: 0%;
@@ -4503,6 +4507,7 @@ nav {
   margin: 0px;
   list-style-type: none;
   float: right;
+  margin-right: -7.5px;
 }
 .navbar-nav > li > a {
   line-height: 21px;
@@ -7311,7 +7316,7 @@ hr.line {
 
 .portfolio-img {
   max-width: 100%;
-  padding: 0 15px 15px;
+  padding: 0 0 15px 15px;
 }
 
 .fixme {

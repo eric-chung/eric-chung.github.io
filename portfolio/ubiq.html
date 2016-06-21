@@ -57,7 +57,7 @@
       <div class="modal-content">
         <div>
           <div class="row">
-            <div class="col-lg-3 col-lg-offset-1 fixme">
+            <div class="col-lg-3 col-lg-offset-1-5 fixme">
               <h4><strong>Ubiq: Buyer's Guide</strong></h4>
               <hr class="line"/>
               <div class="project-info">
@@ -170,7 +170,7 @@
     <script>
 
     var fixmeTop = $('.fixme').offset().top - 10;       // get initial position of the element
-    var footerTop = $('.footer-portfolio').offset().top - 475;
+    var footerTop = $('.footer-portfolio').offset().top - 455;
 
     $(window).scroll(function() {                  // assign scroll event listener
 
@@ -185,7 +185,7 @@
         } else if (currentScroll >= fixmeTop) {
             $('.fixme').css({
                 position: 'absolute',
-                top: '4170px'
+                top: '4275px'
             });
         } else {
             $('.fixme').css({

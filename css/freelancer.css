@@ -616,12 +616,13 @@ footer .footer-below {
   letter-spacing: 2px;
 }
 
-.about-header {
+.about-header,
+.contact-header {
   max-width: 100%;
-  margin-top: -30px;
+  margin-top: -22.5px;
 }
 
 .about-blurb {
-  margin: 30px 0;
+  margin: 45px 0;
   line-height: 1.6;
 }

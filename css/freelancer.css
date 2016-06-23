@@ -613,3 +613,26 @@ footer .footer-below {
 .text-grey {
   color: #cbcbcb;
 }
+
+input {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 7.5px 0;
+  border: 2px solid #cbcbcb;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+
+input[type=Submit] {
+  width: 33.333333%;
+  margin-top: 15px;
+  float: right;
+  background-color: transparent;
+}
+
+input[type=Submit].hover,
+input[type=Submit].active,
+input[type=Submit].focus {
+  border: #4f2683;
+  color: #4f2683;
+}

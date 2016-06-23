@@ -628,7 +628,7 @@ input {
 }
 
 input[type=Submit] {
-  margin-top: 15px;
+  margin: 15px 0;
   float: right;
   background-color: transparent;
 }

@@ -111,16 +111,19 @@ a:hover:before {
 .portfolio-link:focus,
 .portfolio-link:active,
 .portfolio-link:before,
-.portfolio-link:hover:before {
-  content: none;
-}
-
+.portfolio-link:hover:before,
 .link-social,
 .link-social:hover,
 .link-social:focus,
 .link-social:active,
 .link-social:before,
-.link-social:hover:before {
+.link-social:hover:before,
+.portfolio-icon,
+.portfolio-icon:hover,
+.portfolio-icon:focus,
+.portfolio-icon:active,
+.portfolio-icon:before,
+.portfolio-icon:hover:before {
   content: none;
 }
 

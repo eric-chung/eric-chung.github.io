@@ -127,7 +127,7 @@ a:hover:before {
   content: none;
 }
 
-/*.img-responsive,
+.img-responsive,
 .img-responsive:hover,
 .img-responsive:focus,
 .img-responsive:active,
@@ -139,8 +139,8 @@ a:hover:before {
 .img-responsive:hover,
 .img-responsive:focus,
 .img-responsive:active {
-  color: #807f83;
-}*/
+  color: #4f2683;
+}
 
 
 h1,

@@ -625,7 +625,6 @@ input {
 }
 
 input[type=Submit] {
-  width: 33.333333%;
   margin-top: 15px;
   float: right;
   background-color: transparent;
@@ -634,4 +633,8 @@ input[type=Submit] {
 #submit:hover {
   border: 2px solid #4f2683;
   color: #4f2683;
+}
+
+.large-text {
+  font-size: 60px;
 }

@@ -164,7 +164,7 @@
     <script>
 
     var fixmeTop = $('.fixme').offset().top - 10;       // get initial position of the element
-    var footerTop = $('.footer-portfolio').offset().top - 430;
+    var footerTop = $('.footer-portfolio').offset().top - 460;
 
     $(window).scroll(function() {                  // assign scroll event listener
 
@@ -179,7 +179,7 @@
         } else if (currentScroll >= fixmeTop) {
             $('.fixme').css({
                 position: 'absolute',
-                top: '790px'
+                top: '765px'
             });
         } else {
             $('.fixme').css({

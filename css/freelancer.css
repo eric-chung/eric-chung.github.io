@@ -623,7 +623,7 @@ footer .footer-below {
 input {
   width: 100%;
   padding: 15px 20px;
-  margin: 7.5px 0;
+  margin: 7.5px 0 !important;
   border: 2px solid #cbcbcb;
   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */

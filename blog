@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:site_name" content="Eric Chung Design"/>
     <meta property="og:title" content="Freelance Graphic Designer"/>
     <meta property="og:description" content="Eric is a self-driven, creative designer, currently based in Ottawa, Ontario. Currently, he is expanding his portfolio by working with private clients as a freelance designer. His work ranges from creating logos from concept sketches to vector files, to designing print material for advertising, to improving the web by applying UI/UX principles."/>
@@ -40,7 +39,6 @@
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="jquery.ultimate-burger-menu.js"></script>
 
 </head>
 
@@ -48,16 +46,10 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <a href="">
-              <div class="caption">
-                <img src="img/logo_purp.png" alt="">
-              </div>
-              <img src="img/logo.png" class="img-responsive" alt="">
-            </a>
-
-            <nav Class="burgermenu">
-              <div class="col-md-right-8">
-                <ul id="pullout" class="navbar-nav clearfix">
+            <a href="" class="img-responsive"><h2>E R I C  <strong>C H U N G</strong></h2></a>
+            <nav>
+              <div class="col-md-right-9">
+                <ul class="navbar-nav">
                    <li><a class="nav-active" href="">PORTFOLIO</a></li>
                    <li><a href="./about.html">ABOUT</a></li>
                    <li><a href="./contact.html">CONTACT</a></li>
@@ -77,14 +69,6 @@
                               <img src="img/portfolio/bomber_0.png" class="img-responsive" alt="">
                         </div>
                         <img src="img/portfolio/bomber.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="./portfolio/air-advocates.html" class="portfolio-link">
-                        <div class="caption">
-                              <img src="img/portfolio/AA_0.png" class="img-responsive" alt="">
-                        </div>
-                        <img src="img/portfolio/AA.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -160,12 +144,12 @@
         <div class="footer-below">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3 footer-section">
+                    <div class="col-sm-3">
                         <div>
                             <h6 class="footer-header">Contact:</h6> <a class="footer-contact link-white" href="mailto:hello@ericchungdesign.ca">hello@ericchungdesign.ca</a>
                         </div>
                     </div>
-                    <div class="col-sm-3 footer-section">
+                    <div class="col-sm-3">
                         <h6 class="footer-header">Connect:</h6>
                         <a class="link-social" href="http://behance.net/ericchungg" target="_blank">
                           <div class="icon-social">
@@ -183,7 +167,7 @@
                           </div>
                         </a>
                     </div>
-                    <div class="col-sm-6 text-right footer-section">
+                    <div class="col-sm-6 text-right">
                       <div>
                         <h6 style="text-transform:none;" class="footer-header">&copy; Eric Chung Design 2016.</h6>
                         <h6 style="text-transform:none;" class="footer-header">All Rights Reserved.</h6>
@@ -218,22 +202,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="jquery.ultimate-burger-menu.js"></script>
-
-    <script>
-      $(document).ready(function() {
-        $('#burgermenuv').burgerMenu({
-          buttonBg: 'black',
-                lineColor: 'white',
-                menuBackground: 'black',
-                linkBackground: 'black',
-                linkColor: 'white',
-                linkBorderBottom: 'none'
-        });
-      });
-
-    </script>
 
 </body>
 

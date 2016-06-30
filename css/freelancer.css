@@ -451,6 +451,10 @@ footer .footer-below {
     max-height: 18px;
 }
 
+.icon-social-contact > img {
+    max-height: 24px;
+}
+
 .icon-social2 {
     position: absolute;
     opacity: 0;
@@ -620,7 +624,8 @@ footer .footer-below {
   color: #cbcbcb;
 }
 
-input {
+input,
+textarea {
   width: 100%;
   padding: 15px 20px;
   margin: 7.5px 0 !important;
@@ -636,9 +641,6 @@ input[type=Submit] {
   background-color: transparent;
 }
 
-input[type=Message] {
-  max-height: 200%;
-}
 
 #submit {
   color: #807f83;
@@ -646,10 +648,6 @@ input[type=Message] {
 #submit:hover {
   border: 2px solid #4f2683;
   color: #4f2683;
-}
-
-.large-text {
-  font-size: 60px;
 }
 
 .navbar-nav li.icon {

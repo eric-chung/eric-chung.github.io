@@ -1113,7 +1113,6 @@ img {
   max-width: 100%;
   height: auto;
   left: -7.5px;
-  margin-bottom: 15px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -7364,37 +7363,4 @@ hr.line {
   vertical-align: middle;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-#grid {
-  /* Prevent vertical gaps */
-  line-height: 0;
-
-  -webkit-column-count: 3;
-  -webkit-column-gap:   15px;
-  -moz-column-count:    3;
-  -moz-column-gap:      15px;
-  column-count:         3;
-  column-gap:           15px;
-}
-
-#grid img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-}
-
-@media (max-width: 1200px) {
-  #grid {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-@media (max-width: 768px) {
-  #grid {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
 }

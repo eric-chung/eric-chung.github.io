@@ -1,0 +1,278 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+small {
+  text-align: center;
+}
+
+figcaption {
+  padding-left: 8px;
+}
+
+.navbar {
+  background: #ffffff;
+  opacity: 0.9;
+}
+
+.nav > li > a:hover {
+  color: #000000;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.portfolio-item {
+  text-align: center;
+}
+
+.portfolio-item > a {
+  color: #333;
+}
+
+.portfolio-item > a:hover,
+.portfolio-item > a:focus {
+  color: #ea0075;
+}
+.portfolio-item > a > h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+
+.img-responsive {
+  padding-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .portfolio-item {
+    padding: 8px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .portfolio-item {
+    padding: 8px;
+    padding-bottom: 40px;
+  }
+  .navbar-nav {
+    padding-right: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .portfolio-item {
+    padding: 24px;
+  }
+  .navbar-header {
+    padding-left: 16px;
+  }
+  .navbar-nav {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .portfolio-item {
+    padding: 40px;
+    padding-bottom: 16px;
+  }
+  .navbar-header {
+    padding-left: 32px;
+  }
+  .navbar-nav {
+    padding-right: 16px;
+  }
+  .portfolio-page {
+    padding: 0 80px;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 5000; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(255,255,255); /* Fallback color */
+    background-color: rgba(245,245,245,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.3s;
+    animation-name: zoom;
+    animation-duration: 0.3s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0.5)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0.5)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.footer {
+  letter-spacing: 0.05em;
+}
+.footer-social {
+  float: right;
+  padding-left: 16px;
+  color: #777;
+}
+
+.footer-social:hover,
+.footer-social:focus,
+.footer-social:active {
+  color: #ea0075;
+}
+
+.resume {
+  padding: 4px 20px;
+  background-color: #fff;
+  border: 1px solid #777;
+  color: #777;
+}
+
+.resume:hover,
+.resume:focus,
+.resume:active {
+  border: 1px solid #ea0075;
+  color: #ea0075;
+}
+
+body .modal-open {
+  overflow: hidden;
+}
+
+.navbar {
+  letter-spacing: 0.13em;
+}
+
+.footer-portfolio {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.work-nav {
+  color: #777;
+}
+
+.work-nav:hover,
+.work-nav:focus,
+.work-nav:active {
+  color: #ea0075;
+}
+
+.work-nav {
+  vertical-align: middle;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 0.05em;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
